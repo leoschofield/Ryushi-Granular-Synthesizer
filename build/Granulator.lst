@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   27:../../libDaisy//src/hid/switch.h ****     enum Polarity
   28:../../libDaisy//src/hid/switch.h ****     {
   29:../../libDaisy//src/hid/switch.h ****         POLARITY_NORMAL,   /**< & */
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 2
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 2
 
 
   30:../../libDaisy//src/hid/switch.h ****         POLARITY_INVERTED, /**< & */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   19:../../libDaisy//src/daisy_patch_sm.h ****     {
   20:../../libDaisy//src/daisy_patch_sm.h ****         CV_1 = 0,
   21:../../libDaisy//src/daisy_patch_sm.h ****         CV_2,
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 3
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 3
 
 
   22:../../libDaisy//src/daisy_patch_sm.h ****         CV_3,
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
    3:../../libDaisy//src/hid/gatein.h **** #define DSY_GATEIN_H
    4:../../libDaisy//src/hid/gatein.h **** #include "per/gpio.h"
    5:../../libDaisy//src/hid/gatein.h **** 
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 4
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 4
 
 
    6:../../libDaisy//src/hid/gatein.h **** namespace daisy
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   25:../../libDaisy//src/dev/codec_pcm3060.h ****         ERR,
   26:../../libDaisy//src/dev/codec_pcm3060.h ****     };
   27:../../libDaisy//src/dev/codec_pcm3060.h **** 
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 5
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 5
 
 
   28:../../libDaisy//src/dev/codec_pcm3060.h ****     Pcm3060() {}
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   84              	.LBI121:
   85              		.file 6 "../../libDaisy//src/per/adc.h"
    1:../../libDaisy//src/per/adc.h **** #pragma once
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 6
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 6
 
 
    2:../../libDaisy//src/per/adc.h **** #ifndef DSY_ADC_H
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   56:../../libDaisy//src/per/adc.h ****     \param mux_2 Third mux pin
   57:../../libDaisy//src/per/adc.h ****     \param adc_pin &
   58:../../libDaisy//src/per/adc.h ****     */
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 7
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 7
 
 
   59:../../libDaisy//src/per/adc.h ****     void InitMux(dsy_gpio_pin adc_pin,
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   14:../../libDaisy//src/hid/audio.h ****  *           If you're setting up your own custom hardware, or need to make changes
   15:../../libDaisy//src/hid/audio.h ****  *           you will have to take the following steps:
   16:../../libDaisy//src/hid/audio.h ****  *             1. Create and Initialize an SaiHandle or two depending on your requirements
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 8
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 8
 
 
   17:../../libDaisy//src/hid/audio.h ****  *             2. Initialize the Audio Handle with the desired settings and the Initialized SaiHand
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   71:../../libDaisy//src/hid/audio.h ****      * Non-Interleaving audio callbacks in daisy will be of this type
   72:../../libDaisy//src/hid/audio.h ****      */
   73:../../libDaisy//src/hid/audio.h ****     typedef void (*AudioCallback)(InputBuffer  in,
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 9
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 9
 
 
   74:../../libDaisy//src/hid/audio.h ****                                   OutputBuffer out,
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   26:../../libDaisy//src/sys/system.h ****         {
   27:../../libDaisy//src/sys/system.h ****             FREQ_400MHZ,
   28:../../libDaisy//src/sys/system.h ****             FREQ_480MHZ,
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 10
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 10
 
 
   29:../../libDaisy//src/sys/system.h ****         };
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
  102 0000 7047     		bx	lr
  103              		.cfi_endproc
  104              	.LFE2528:
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 11
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 11
 
 
  106              		.weak	_ZN5daisy8patch_sm12DaisyPatchSMD1Ev
@@ -618,49 +618,68 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
    1:Granulator.cpp **** #include "daisy_patch_sm.h"
    2:Granulator.cpp **** #include "daisysp.h"
    3:Granulator.cpp **** 
-   4:Granulator.cpp **** using namespace daisy;
-   5:Granulator.cpp **** using namespace patch_sm;
-   6:Granulator.cpp **** using namespace daisysp;
-   7:Granulator.cpp **** 
-   8:Granulator.cpp **** #define MAX_DELAY static_cast<size_t>(44100 * 1.f)
+   4:Granulator.cpp **** #define MAX_DELAY static_cast<size_t>(44100 * 1.f)
+   5:Granulator.cpp **** #define NUM_GRAINS 1
+   6:Granulator.cpp **** using namespace daisy;
+   7:Granulator.cpp **** using namespace patch_sm;
+   8:Granulator.cpp **** using namespace daisysp;
    9:Granulator.cpp **** 
-  10:Granulator.cpp **** DaisyPatchSM patch;
-  11:Granulator.cpp **** Switch       button;
-  12:Granulator.cpp **** // DelayLine<float, MAX_DELAY> DSY_SDRAM_BSS delMems[2];
-  13:Granulator.cpp **** // DelayLine<float, 4410> DSY_SDRAM_BSS grain[2];
-  14:Granulator.cpp **** float DSY_SDRAM_BSS buffer_l[MAX_DELAY];
-  15:Granulator.cpp **** float DSY_SDRAM_BSS buffer_r[MAX_DELAY];
-  16:Granulator.cpp **** 
-  17:Granulator.cpp **** float delayTimeInSeconds = 0.1f; 
-  18:Granulator.cpp **** size_t delayTimeInSamples = static_cast<size_t>(delayTimeInSeconds * MAX_DELAY); 
+  10:Granulator.cpp **** typedef struct Grain
+  11:Granulator.cpp **** {
+  12:Granulator.cpp ****     bool triggered;
+  13:Granulator.cpp ****     signed long int triggered_counter;
+  14:Granulator.cpp ****     signed long int length;
+  15:Granulator.cpp ****     signed long int write_pos;
+  16:Granulator.cpp ****     signed long int read_pos;
+  17:Granulator.cpp ****     signed long int offset;
+  18:Granulator.cpp **** };
   19:Granulator.cpp **** 
-  20:Granulator.cpp **** void AudioCallback(AudioHandle::InputBuffer  in,
-  21:Granulator.cpp ****                    AudioHandle::OutputBuffer out,
-  22:Granulator.cpp ****                    size_t                    size)
-  23:Granulator.cpp **** {
- 121              		.loc 9 23 1 is_stmt 1 view -0
+  20:Granulator.cpp **** DaisyPatchSM patch;
+  21:Granulator.cpp **** Switch       button;
+  22:Granulator.cpp **** // Grain        grains[NUM_GRAINS];
+  23:Granulator.cpp **** 
+  24:Granulator.cpp **** Grain grain; 
+  25:Granulator.cpp **** float DSY_SDRAM_BSS grain_buffer_l[MAX_DELAY];
+  26:Granulator.cpp **** float DSY_SDRAM_BSS grain_buffer_r[MAX_DELAY];
+  27:Granulator.cpp **** 
+  28:Granulator.cpp **** // float DSY_SDRAM_BSS grain_buffers_l[NUM_GRAINS][MAX_DELAY];
+  29:Granulator.cpp **** // float DSY_SDRAM_BSS grain_buffers_r[NUM_GRAINS][MAX_DELAY];
+  30:Granulator.cpp **** 
+  31:Granulator.cpp **** float DSY_SDRAM_BSS buffer_l[MAX_DELAY];
+  32:Granulator.cpp **** float DSY_SDRAM_BSS buffer_r[MAX_DELAY];
+  33:Granulator.cpp **** 
+  34:Granulator.cpp **** void AudioCallback(AudioHandle::InputBuffer  in,
+  35:Granulator.cpp ****                    AudioHandle::OutputBuffer out,
+  36:Granulator.cpp ****                    size_t                    size)
+  37:Granulator.cpp **** {
+ 121              		.loc 9 37 1 is_stmt 1 view -0
  122              		.cfi_startproc
  123              		@ args = 0, pretend = 0, frame = 0
  124              		@ frame_needed = 0, uses_anonymous_args = 0
-  24:Granulator.cpp ****     static int button_pressed = 0;
- 125              		.loc 9 24 5 view .LVU19
-  25:Granulator.cpp ****     static signed long int write_pos = 0;
- 126              		.loc 9 25 5 view .LVU20
-  26:Granulator.cpp ****     static signed long int read_pos = 0;
- 127              		.loc 9 26 5 view .LVU21
-  27:Granulator.cpp ****     static signed long int offset = 0;
- 128              		.loc 9 27 5 view .LVU22
-  28:Granulator.cpp ****     patch.ProcessAllControls();
- 129              		.loc 9 28 5 view .LVU23
- 130              	.LBB124:
- 131              	.LBI124:
+  38:Granulator.cpp ****     static int button_pressed = 0;
+ 125              		.loc 9 38 5 view .LVU19
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 12
+
+
+  39:Granulator.cpp ****     static int interval = 0;
+ 126              		.loc 9 39 5 view .LVU20
+  40:Granulator.cpp ****     static long int sample_counter = 0;
+ 127              		.loc 9 40 5 view .LVU21
+  41:Granulator.cpp ****     static signed long int write_pos = 0;
+ 128              		.loc 9 41 5 view .LVU22
+  42:Granulator.cpp ****     static signed long int read_pos = 0;
+ 129              		.loc 9 42 5 view .LVU23
+  43:Granulator.cpp ****     static signed long int offset = 0;
+ 130              		.loc 9 43 5 view .LVU24
+  44:Granulator.cpp ****     
+  45:Granulator.cpp ****     patch.ProcessAllControls();
+ 131              		.loc 9 45 5 view .LVU25
+ 132              	.LBB124:
+ 133              	.LBI124:
   66:../../libDaisy//src/daisy_patch_sm.h **** 
   67:../../libDaisy//src/daisy_patch_sm.h ****         /** Initializes the memories, and core peripherals for the Daisy Patch SM */
   68:../../libDaisy//src/daisy_patch_sm.h ****         void Init();
   69:../../libDaisy//src/daisy_patch_sm.h **** 
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 12
-
-
   70:../../libDaisy//src/daisy_patch_sm.h ****         /** Starts a non-interleaving audio callback */
   71:../../libDaisy//src/daisy_patch_sm.h ****         void StartAudio(AudioHandle::AudioCallback cb);
   72:../../libDaisy//src/daisy_patch_sm.h **** 
@@ -699,6 +718,9 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
  105:../../libDaisy//src/daisy_patch_sm.h ****         /** Returns the audio engine's samplerate in Hz */
  106:../../libDaisy//src/daisy_patch_sm.h ****         float AudioSampleRate();
  107:../../libDaisy//src/daisy_patch_sm.h **** 
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 13
+
+
  108:../../libDaisy//src/daisy_patch_sm.h ****         /** Returns the rate at which the audio callback will be called in Hz */
  109:../../libDaisy//src/daisy_patch_sm.h ****         float AudioCallbackRate();
  110:../../libDaisy//src/daisy_patch_sm.h **** 
@@ -718,116 +740,369 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
  124:../../libDaisy//src/daisy_patch_sm.h ****          *  This does nothing on this board at this time.
  125:../../libDaisy//src/daisy_patch_sm.h ****          */
  126:../../libDaisy//src/daisy_patch_sm.h ****         void ProcessDigitalControls();
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 13
-
-
  127:../../libDaisy//src/daisy_patch_sm.h **** 
  128:../../libDaisy//src/daisy_patch_sm.h ****         /** Does both of the above */
  129:../../libDaisy//src/daisy_patch_sm.h ****         void ProcessAllControls()
- 132              		.loc 2 129 14 view .LVU24
- 133              	.LBB125:
+ 134              		.loc 2 129 14 view .LVU26
+ 135              	.LBB125:
  130:../../libDaisy//src/daisy_patch_sm.h ****         {
  131:../../libDaisy//src/daisy_patch_sm.h ****             ProcessAnalogControls();
- 134              		.loc 2 131 13 view .LVU25
- 135              	.LBE125:
- 136              	.LBE124:
-  23:Granulator.cpp ****     static int button_pressed = 0;
- 137              		.loc 9 23 1 is_stmt 0 view .LVU26
- 138 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
- 139              		.cfi_def_cfa_offset 24
- 140              		.cfi_offset 3, -24
- 141              		.cfi_offset 4, -20
- 142              		.cfi_offset 5, -16
- 143              		.cfi_offset 6, -12
- 144              		.cfi_offset 7, -8
- 145              		.cfi_offset 14, -4
-  23:Granulator.cpp ****     static int button_pressed = 0;
- 146              		.loc 9 23 1 view .LVU27
- 147 0002 0446     		mov	r4, r0
- 148              	.LBB128:
- 149              	.LBB126:
- 150              		.loc 2 131 34 view .LVU28
- 151 0004 2548     		ldr	r0, .L17
- 152              	.LVL3:
- 153              		.loc 2 131 34 view .LVU29
- 154              	.LBE126:
- 155              	.LBE128:
-  23:Granulator.cpp ****     static int button_pressed = 0;
- 156              		.loc 9 23 1 view .LVU30
- 157 0006 0D46     		mov	r5, r1
- 158              	.LBB129:
- 159              	.LBB127:
- 160              		.loc 2 131 34 view .LVU31
- 161 0008 FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM21ProcessAnalogControlsEv
- 162              	.LVL4:
+ 136              		.loc 2 131 13 view .LVU27
+ 137              	.LBE125:
+ 138              	.LBE124:
+  37:Granulator.cpp ****     static int button_pressed = 0;
+ 139              		.loc 9 37 1 is_stmt 0 view .LVU28
+ 140 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
+ 141              		.cfi_def_cfa_offset 24
+ 142              		.cfi_offset 3, -24
+ 143              		.cfi_offset 4, -20
+ 144              		.cfi_offset 5, -16
+ 145              		.cfi_offset 6, -12
+ 146              		.cfi_offset 7, -8
+ 147              		.cfi_offset 14, -4
+  37:Granulator.cpp ****     static int button_pressed = 0;
+ 148              		.loc 9 37 1 view .LVU29
+ 149 0002 0546     		mov	r5, r0
+ 150              	.LBB128:
+ 151              	.LBB126:
+ 152              		.loc 2 131 34 view .LVU30
+ 153 0004 4A48     		ldr	r0, .L22
+ 154              	.LVL3:
+ 155              		.loc 2 131 34 view .LVU31
+ 156              	.LBE126:
+ 157              	.LBE128:
+  37:Granulator.cpp ****     static int button_pressed = 0;
+ 158              		.loc 9 37 1 view .LVU32
+ 159 0006 0E46     		mov	r6, r1
+ 160              	.LBB129:
+ 161              	.LBB127:
+ 162              		.loc 2 131 34 view .LVU33
+ 163 0008 FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM21ProcessAnalogControlsEv
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 14
+
+
+ 164              	.LVL4:
  132:../../libDaisy//src/daisy_patch_sm.h ****             ProcessDigitalControls();
- 163              		.loc 2 132 13 is_stmt 1 view .LVU32
- 164              		.loc 2 132 35 is_stmt 0 view .LVU33
- 165 000c 2348     		ldr	r0, .L17
- 166 000e FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM22ProcessDigitalControlsEv
- 167              	.LVL5:
- 168              		.loc 2 132 35 view .LVU34
- 169              	.LBE127:
- 170              	.LBE129:
-  29:Granulator.cpp ****     button.Debounce();
- 171              		.loc 9 29 5 is_stmt 1 view .LVU35
- 172              		.loc 9 29 20 is_stmt 0 view .LVU36
- 173 0012 2348     		ldr	r0, .L17+4
- 174 0014 FFF7FEFF 		bl	_ZN5daisy6Switch8DebounceEv
- 175              	.LVL6:
-  30:Granulator.cpp **** 
-  31:Granulator.cpp ****     // float time_knob = patch.GetAdcValue(CV_1);
-  32:Granulator.cpp ****     // patch.WriteCvOut(2, (time_knob*5));
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 14
+ 165              		.loc 2 132 13 is_stmt 1 view .LVU34
+ 166              		.loc 2 132 35 is_stmt 0 view .LVU35
+ 167 000c 4848     		ldr	r0, .L22
+ 168 000e FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM22ProcessDigitalControlsEv
+ 169              	.LVL5:
+ 170              		.loc 2 132 35 view .LVU36
+ 171              	.LBE127:
+ 172              	.LBE129:
+  46:Granulator.cpp ****     button.Debounce();
+ 173              		.loc 9 46 5 is_stmt 1 view .LVU37
+ 174              		.loc 9 46 20 is_stmt 0 view .LVU38
+ 175 0012 4848     		ldr	r0, .L22+4
+ 176 0014 FFF7FEFF 		bl	_ZN5daisy6Switch8DebounceEv
+ 177              	.LVL6:
+  47:Granulator.cpp **** 
+  48:Granulator.cpp ****     grain.length = patch.GetAdcValue(CV_1)*44100;
+ 178              		.loc 9 48 5 is_stmt 1 view .LVU39
+ 179              		.loc 9 48 37 is_stmt 0 view .LVU40
+ 180 0018 0021     		movs	r1, #0
+ 181 001a 4548     		ldr	r0, .L22
+ 182 001c FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM11GetAdcValueEi
+ 183              	.LVL7:
+ 184              		.loc 9 48 43 view .LVU41
+ 185 0020 DFED457A 		vldr.32	s15, .L22+8
+ 186              		.loc 9 48 18 view .LVU42
+ 187 0024 454C     		ldr	r4, .L22+12
+  49:Granulator.cpp ****     interval = patch.GetAdcValue(CV_2)*64;
+ 188              		.loc 9 49 33 view .LVU43
+ 189 0026 0121     		movs	r1, #1
+  48:Granulator.cpp ****     interval = patch.GetAdcValue(CV_2)*64;
+ 190              		.loc 9 48 43 view .LVU44
+ 191 0028 20EE270A 		vmul.f32	s0, s0, s15
+ 192              		.loc 9 49 33 view .LVU45
+ 193 002c 4048     		ldr	r0, .L22
+  48:Granulator.cpp ****     interval = patch.GetAdcValue(CV_2)*64;
+ 194              		.loc 9 48 18 view .LVU46
+ 195 002e BDEEC00A 		vcvt.s32.f32	s0, s0
+ 196 0032 84ED020A 		vstr.32	s0, [r4, #8]	@ int
+ 197              		.loc 9 49 5 is_stmt 1 view .LVU47
+ 198              		.loc 9 49 33 is_stmt 0 view .LVU48
+ 199 0036 FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM11GetAdcValueEi
+ 200              	.LVL8:
+  50:Granulator.cpp ****     // patch.WriteCvOut(2, (time_knob*5));
+  51:Granulator.cpp ****     // out[0][0] = in[0][0]; 
+  52:Granulator.cpp ****     // out[1][0] = in[1][0]; 
+  53:Granulator.cpp ****     //--- Write Head --- Always writing 
+  54:Granulator.cpp **** 
+  55:Granulator.cpp ****     if(write_pos > MAX_DELAY - 1) // stop overflow
+ 201              		.loc 9 55 8 view .LVU49
+ 202 003a 414B     		ldr	r3, .L22+16
+ 203              		.loc 9 55 5 is_stmt 1 view .LVU50
+ 204 003c 4AF64341 		movw	r1, #44099
+ 205              		.loc 9 55 8 is_stmt 0 view .LVU51
+ 206 0040 1A68     		ldr	r2, [r3]
+ 207              		.loc 9 55 5 view .LVU52
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 15
 
 
-  33:Granulator.cpp ****     // out[0][0] = in[0][0]; 
-  34:Granulator.cpp ****     // out[1][0] = in[1][0]; 
-  35:Granulator.cpp ****     //--- Write Head --- Always writing 
-  36:Granulator.cpp **** 
-  37:Granulator.cpp ****     if(write_pos > MAX_DELAY - 1) // stop overflow
- 176              		.loc 9 37 5 is_stmt 1 view .LVU37
- 177              		.loc 9 37 8 is_stmt 0 view .LVU38
- 178 0018 2249     		ldr	r1, .L17+8
- 179              		.loc 9 37 5 view .LVU39
- 180 001a 4AF64342 		movw	r2, #44099
- 181              		.loc 9 37 8 view .LVU40
- 182 001e 0B68     		ldr	r3, [r1]
- 183              		.loc 9 37 5 view .LVU41
- 184 0020 9342     		cmp	r3, r2
- 185 0022 2CD9     		bls	.L16
- 186 0024 0120     		movs	r0, #1
- 187 0026 48F23452 		movw	r2, #34100
-  38:Granulator.cpp ****     {
-  39:Granulator.cpp ****         write_pos = 0;
-  40:Granulator.cpp ****     }
-  41:Granulator.cpp **** 
-  42:Granulator.cpp ****     offset = write_pos - 10000; //TODO 10000 is selectable array offset (delay time)
- 188              		.loc 9 42 24 view .LVU42
- 189 002a 0023     		movs	r3, #0
-  43:Granulator.cpp ****     if(offset < 0)
-  44:Granulator.cpp ****     {
-  45:Granulator.cpp ****         // patch.WriteCvOut(2, (5.f));
-  46:Granulator.cpp ****         read_pos = offset + MAX_DELAY;
- 190              		.loc 9 46 9 is_stmt 1 view .LVU43
- 191              	.L7:
-  47:Granulator.cpp ****     }
-  48:Granulator.cpp ****     else
-  49:Granulator.cpp ****     {
-  50:Granulator.cpp ****         // patch.WriteCvOut(2, (0.f));
-  51:Granulator.cpp ****         read_pos = offset;
-  52:Granulator.cpp ****     }
-  53:Granulator.cpp ****     
-  54:Granulator.cpp ****     buffer_l[write_pos] =  in[0][0]; 
-  55:Granulator.cpp ****     buffer_r[write_pos] =  in[1][0]; 
-  56:Granulator.cpp **** 
-  57:Granulator.cpp ****     out[0][0] = buffer_l[read_pos];
-  58:Granulator.cpp ****     out[1][0] = buffer_r[read_pos];
-  59:Granulator.cpp ****     write_pos++;
- 192              		.loc 9 59 14 is_stmt 0 view .LVU44
- 193 002c 0860     		str	r0, [r1]
- 194              	.LBB130:
- 195              	.LBB131:
+ 208 0042 8A42     		cmp	r2, r1
+ 209 0044 6BD8     		bhi	.L16
+  56:Granulator.cpp ****     {
+  57:Granulator.cpp ****         write_pos = 0;
+  58:Granulator.cpp ****     }
+  59:Granulator.cpp **** 
+  60:Granulator.cpp ****     // offset = write_pos ;//- 4400; //TODO 10000 is selectable array offset (delay time)
+  61:Granulator.cpp ****     // if(offset < 0)
+  62:Granulator.cpp ****     // {
+  63:Granulator.cpp ****     //     // patch.WriteCvOut(2, (5.f));
+  64:Granulator.cpp ****     //     read_pos = offset + MAX_DELAY;
+  65:Granulator.cpp ****     // }
+  66:Granulator.cpp ****     // else
+  67:Granulator.cpp ****     // {
+  68:Granulator.cpp ****     //     // patch.WriteCvOut(2, (0.f));
+  69:Granulator.cpp ****     //     read_pos = offset;
+  70:Granulator.cpp ****     // }
+  71:Granulator.cpp ****     read_pos = write_pos;
+  72:Granulator.cpp ****     
+  73:Granulator.cpp ****     /* write head connected to input */
+  74:Granulator.cpp ****     buffer_l[write_pos] =  in[0][0]; 
+  75:Granulator.cpp ****     buffer_r[write_pos] =  in[1][0]; 
+  76:Granulator.cpp **** 
+  77:Granulator.cpp ****     /* increment write position */
+  78:Granulator.cpp ****     write_pos++;
+ 210              		.loc 9 78 14 view .LVU53
+ 211 0046 511C     		adds	r1, r2, #1
+ 212              	.L5:
+  71:Granulator.cpp ****     
+ 213              		.loc 9 71 5 is_stmt 1 view .LVU54
+  74:Granulator.cpp ****     buffer_r[write_pos] =  in[1][0]; 
+ 214              		.loc 9 74 5 view .LVU55
+ 215              		.loc 9 78 14 is_stmt 0 view .LVU56
+ 216 0048 1960     		str	r1, [r3]
+  79:Granulator.cpp **** 
+  80:Granulator.cpp **** 
+  81:Granulator.cpp ****     if(grain.write_pos > MAX_DELAY - 1) // stop overflow
+ 217              		.loc 9 81 14 view .LVU57
+ 218 004a E368     		ldr	r3, [r4, #12]
+  75:Granulator.cpp **** 
+ 219              		.loc 9 75 35 view .LVU58
+ 220 004c D5E90010 		ldrd	r1, r0, [r5]
+  74:Granulator.cpp ****     buffer_r[write_pos] =  in[1][0]; 
+ 221              		.loc 9 74 35 view .LVU59
+ 222 0050 D1F800C0 		ldr	ip, [r1]	@ float
+  74:Granulator.cpp ****     buffer_r[write_pos] =  in[1][0]; 
+ 223              		.loc 9 74 25 view .LVU60
+ 224 0054 3B49     		ldr	r1, .L22+20
+ 225 0056 01EB8201 		add	r1, r1, r2, lsl #2
+ 226 005a C1F800C0 		str	ip, [r1]	@ float
+  75:Granulator.cpp **** 
+ 227              		.loc 9 75 5 is_stmt 1 view .LVU61
+  75:Granulator.cpp **** 
+ 228              		.loc 9 75 25 is_stmt 0 view .LVU62
+ 229 005e 3A49     		ldr	r1, .L22+24
+  75:Granulator.cpp **** 
+ 230              		.loc 9 75 35 view .LVU63
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 16
+
+
+ 231 0060 0068     		ldr	r0, [r0]	@ float
+  75:Granulator.cpp **** 
+ 232              		.loc 9 75 25 view .LVU64
+ 233 0062 01EB8202 		add	r2, r1, r2, lsl #2
+ 234 0066 1060     		str	r0, [r2]	@ float
+  78:Granulator.cpp **** 
+ 235              		.loc 9 78 5 is_stmt 1 view .LVU65
+ 236              		.loc 9 81 5 view .LVU66
+ 237 0068 4AF64342 		movw	r2, #44099
+ 238 006c 9342     		cmp	r3, r2
+ 239 006e 53D8     		bhi	.L17
+  82:Granulator.cpp ****     {
+  83:Granulator.cpp ****         grain.write_pos = 0;
+  84:Granulator.cpp ****     }
+  85:Granulator.cpp ****     grain_buffer_l[grain.write_pos] = buffer_l[read_pos];
+  86:Granulator.cpp ****     grain_buffer_r[grain.write_pos] = buffer_r[read_pos];
+  87:Granulator.cpp ****     grain.read_pos = grain.write_pos;
+  88:Granulator.cpp ****     grain.write_pos++;
+ 240              		.loc 9 88 20 is_stmt 0 view .LVU67
+ 241 0070 5A1C     		adds	r2, r3, #1
+ 242              	.L6:
+  85:Granulator.cpp ****     grain_buffer_r[grain.write_pos] = buffer_r[read_pos];
+ 243              		.loc 9 85 5 is_stmt 1 view .LVU68
+  85:Granulator.cpp ****     grain_buffer_r[grain.write_pos] = buffer_r[read_pos];
+ 244              		.loc 9 85 37 is_stmt 0 view .LVU69
+ 245 0072 364F     		ldr	r7, .L22+28
+  89:Granulator.cpp **** 
+  90:Granulator.cpp ****     // out[0][0] = grain_buffer_l[grain.read_pos];
+  91:Granulator.cpp ****     // out[1][0] = grain_buffer_r[grain.read_pos];
+  92:Granulator.cpp **** 
+  93:Granulator.cpp ****     // /* write to grains */
+  94:Granulator.cpp ****     // for (int i = 0 ; i < NUM_GRAINS; i++)
+  95:Granulator.cpp ****     // {
+  96:Granulator.cpp ****     //     if(grains[i].write_pos > MAX_DELAY - 1) // stop overflow
+  97:Granulator.cpp ****     //     {
+  98:Granulator.cpp ****     //         grains[i].write_pos = 0;
+  99:Granulator.cpp ****     //     }
+ 100:Granulator.cpp ****     //     grain_buffers_l[i][grains[i].write_pos] = buffer_l[read_pos];
+ 101:Granulator.cpp ****     //     grain_buffers_r[i][grains[i].write_pos] = buffer_r[read_pos];
+ 102:Granulator.cpp ****     //     grains[i].write_pos++;
+ 103:Granulator.cpp ****     // }
+ 104:Granulator.cpp ****     // /* write to outputs */
+ 105:Granulator.cpp ****     // int output_l = 0;
+ 106:Granulator.cpp ****     // int output_r = 0;
+ 107:Granulator.cpp ****     // 
+ 108:Granulator.cpp ****     // for (int i = 0 ; i < NUM_GRAINS; i++)
+ 109:Granulator.cpp ****     // {
+ 110:Granulator.cpp ****     // // grains[i].offset = grains[i].write_pos ; //- 10000; //TODO 10000 is selectable array offs
+ 111:Granulator.cpp ****     // // if(offset < 0)
+ 112:Granulator.cpp ****     // // {
+ 113:Granulator.cpp ****     // //     // patch.WriteCvOut(2, (5.f));
+ 114:Granulator.cpp ****     // //     grains[i].read_pos = grains[i].offset + MAX_DELAY;
+ 115:Granulator.cpp ****     // // }
+ 116:Granulator.cpp ****     // // else
+ 117:Granulator.cpp ****     // // {
+ 118:Granulator.cpp ****     // //     // patch.WriteCvOut(2, (0.f));
+ 119:Granulator.cpp ****     // //     grains[i].read_pos = grains[i].offset;
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 17
+
+
+ 120:Granulator.cpp ****     // // }
+ 121:Granulator.cpp ****     //     grains[i].read_pos = grains[i].write_pos;
+ 122:Granulator.cpp ****     // 
+ 123:Granulator.cpp ****     //     output_l += grain_buffers_l[i][grains[i].read_pos];
+ 124:Granulator.cpp ****     //     output_r += grain_buffers_r[i][grains[i].read_pos];
+ 125:Granulator.cpp ****     // }
+ 126:Granulator.cpp ****     // out[0][0] = output_l;
+ 127:Granulator.cpp ****     // out[1][0] = output_r;
+ 128:Granulator.cpp **** 
+ 129:Granulator.cpp **** 
+ 130:Granulator.cpp ****     // /* output connected to read head   */
+ 131:Granulator.cpp ****     // out[0][0] = buffer_l[read_pos];
+ 132:Granulator.cpp ****     // out[1][0] = buffer_r[read_pos];
+ 133:Granulator.cpp **** 
+ 134:Granulator.cpp ****     if(sample_counter > (int)MAX_DELAY - 1) // stop overflow
+ 246              		.loc 9 134 5 view .LVU70
+ 247 0074 4AF64341 		movw	r1, #44099
+  86:Granulator.cpp ****     grain.read_pos = grain.write_pos;
+ 248              		.loc 9 86 37 view .LVU71
+ 249 0078 354D     		ldr	r5, .L22+32
+ 250              	.LVL9:
+  85:Granulator.cpp ****     grain_buffer_r[grain.write_pos] = buffer_r[read_pos];
+ 251              		.loc 9 85 37 view .LVU72
+ 252 007a 07EB830E 		add	lr, r7, r3, lsl #2
+  87:Granulator.cpp ****     grain.write_pos++;
+ 253              		.loc 9 87 20 view .LVU73
+ 254 007e C4E90323 		strd	r2, r3, [r4, #12]
+  86:Granulator.cpp ****     grain.read_pos = grain.write_pos;
+ 255              		.loc 9 86 37 view .LVU74
+ 256 0082 05EB8303 		add	r3, r5, r3, lsl #2
+ 257              		.loc 9 134 23 view .LVU75
+ 258 0086 334A     		ldr	r2, .L22+36
+  85:Granulator.cpp ****     grain_buffer_r[grain.write_pos] = buffer_r[read_pos];
+ 259              		.loc 9 85 37 view .LVU76
+ 260 0088 CEF800C0 		str	ip, [lr]	@ float
+  86:Granulator.cpp ****     grain.read_pos = grain.write_pos;
+ 261              		.loc 9 86 5 is_stmt 1 view .LVU77
+  86:Granulator.cpp ****     grain.read_pos = grain.write_pos;
+ 262              		.loc 9 86 37 is_stmt 0 view .LVU78
+ 263 008c 1860     		str	r0, [r3]	@ float
+  87:Granulator.cpp ****     grain.write_pos++;
+ 264              		.loc 9 87 5 is_stmt 1 view .LVU79
+  88:Granulator.cpp **** 
+ 265              		.loc 9 88 5 view .LVU80
+ 266              		.loc 9 134 5 view .LVU81
+ 267              		.loc 9 134 23 is_stmt 0 view .LVU82
+ 268 008e 1368     		ldr	r3, [r2]
+ 269              		.loc 9 134 5 view .LVU83
+ 270 0090 8B42     		cmp	r3, r1
+ 271 0092 2CDD     		ble	.L7
+ 135:Granulator.cpp ****     {
+ 136:Granulator.cpp ****         sample_counter = 0;
+ 272              		.loc 9 136 9 is_stmt 1 view .LVU84
+ 137:Granulator.cpp ****     }
+ 138:Granulator.cpp **** 
+ 139:Granulator.cpp ****     if(sample_counter++ % ((int)MAX_DELAY/interval) == 0)
+ 273              		.loc 9 139 5 view .LVU85
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 18
+
+
+ 274              		.loc 9 139 22 is_stmt 0 view .LVU86
+ 275 0094 0123     		movs	r3, #1
+ 276 0096 1360     		str	r3, [r2]
+ 277              	.L10:
+ 140:Granulator.cpp ****     {
+ 141:Granulator.cpp ****        grain.triggered = 1;
+ 142:Granulator.cpp ****     }
+ 143:Granulator.cpp **** 
+ 144:Granulator.cpp ****     if(grain.triggered)
+ 145:Granulator.cpp ****     {
+ 146:Granulator.cpp ****         grain.triggered = 0;
+ 278              		.loc 9 146 9 is_stmt 1 view .LVU87
+ 279              		.loc 9 146 25 is_stmt 0 view .LVU88
+ 280 0098 0023     		movs	r3, #0
+ 281 009a 2370     		strb	r3, [r4]
+ 147:Granulator.cpp ****         grain.triggered_counter = grain.length;
+ 282              		.loc 9 147 9 is_stmt 1 view .LVU89
+ 283              		.loc 9 147 41 is_stmt 0 view .LVU90
+ 284 009c A368     		ldr	r3, [r4, #8]
+ 285              		.loc 9 147 33 view .LVU91
+ 286 009e 6360     		str	r3, [r4, #4]
+ 287              	.L11:
+ 148:Granulator.cpp ****     }
+ 149:Granulator.cpp **** 
+ 150:Granulator.cpp ****     if(grain.triggered_counter)
+ 288              		.loc 9 150 5 is_stmt 1 view .LVU92
+ 289 00a0 F3B1     		cbz	r3, .L12
+ 151:Granulator.cpp ****     {
+ 152:Granulator.cpp ****         grain.triggered_counter--;
+ 290              		.loc 9 152 9 view .LVU93
+ 291              		.loc 9 152 32 is_stmt 0 view .LVU94
+ 292 00a2 013B     		subs	r3, r3, #1
+ 153:Granulator.cpp ****         patch.WriteCvOut(2, 5.f);
+ 293              		.loc 9 153 25 view .LVU95
+ 294 00a4 0221     		movs	r1, #2
+ 295 00a6 B1EE040A 		vmov.f32	s0, #5.0e+0
+ 296 00aa 2148     		ldr	r0, .L22
+ 152:Granulator.cpp ****         patch.WriteCvOut(2, 5.f);
+ 297              		.loc 9 152 32 view .LVU96
+ 298 00ac 6360     		str	r3, [r4, #4]
+ 299              		.loc 9 153 9 is_stmt 1 view .LVU97
+ 300              		.loc 9 153 25 is_stmt 0 view .LVU98
+ 301 00ae FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM10WriteCvOutEif
+ 302              	.LVL10:
+ 154:Granulator.cpp ****         out[0][0] = grain_buffer_l[grain.read_pos];
+ 303              		.loc 9 154 9 is_stmt 1 view .LVU99
+ 304              		.loc 9 154 42 is_stmt 0 view .LVU100
+ 305 00b2 2369     		ldr	r3, [r4, #16]
+ 306              		.loc 9 154 50 view .LVU101
+ 307 00b4 07EB8307 		add	r7, r7, r3, lsl #2
+ 155:Granulator.cpp ****         out[1][0] = grain_buffer_r[grain.read_pos];
+ 308              		.loc 9 155 50 view .LVU102
+ 309 00b8 05EB8305 		add	r5, r5, r3, lsl #2
+ 154:Granulator.cpp ****         out[0][0] = grain_buffer_l[grain.read_pos];
+ 310              		.loc 9 154 50 view .LVU103
+ 311 00bc 3B68     		ldr	r3, [r7]	@ float
+ 312              		.loc 9 155 19 view .LVU104
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 19
+
+
+ 313 00be D6E90012 		ldrd	r1, r2, [r6]
+ 154:Granulator.cpp ****         out[0][0] = grain_buffer_l[grain.read_pos];
+ 314              		.loc 9 154 19 view .LVU105
+ 315 00c2 0B60     		str	r3, [r1]	@ float
+ 316              		.loc 9 155 9 is_stmt 1 view .LVU106
+ 317              		.loc 9 155 50 is_stmt 0 view .LVU107
+ 318 00c4 2B68     		ldr	r3, [r5]	@ float
+ 319              		.loc 9 155 19 view .LVU108
+ 320 00c6 1360     		str	r3, [r2]	@ float
+ 321              	.L13:
+ 156:Granulator.cpp ****     }
+ 157:Granulator.cpp ****     else
+ 158:Granulator.cpp ****     {
+ 159:Granulator.cpp ****         patch.WriteCvOut(2, 0.f);
+ 160:Granulator.cpp ****     }
+ 161:Granulator.cpp **** 
+ 162:Granulator.cpp **** 
+ 163:Granulator.cpp ****     if(button.RisingEdge())
+ 322              		.loc 9 163 5 is_stmt 1 view .LVU109
+ 323              	.LVL11:
+ 324              	.LBB130:
+ 325              	.LBI130:
   43:../../libDaisy//src/hid/switch.h **** 
   44:../../libDaisy//src/hid/switch.h ****     /** 
   45:../../libDaisy//src/hid/switch.h ****     Initializes the switch object with a given port/pin combo.
@@ -838,9 +1113,6 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   50:../../libDaisy//src/hid/switch.h ****     \param pu switch pull up/down -- Default: PULL_UP
   51:../../libDaisy//src/hid/switch.h ****     */
   52:../../libDaisy//src/hid/switch.h ****     void
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 15
-
-
   53:../../libDaisy//src/hid/switch.h ****     Init(dsy_gpio_pin pin, float update_rate, Type t, Polarity pol, Pull pu);
   54:../../libDaisy//src/hid/switch.h **** 
   55:../../libDaisy//src/hid/switch.h ****     /**
@@ -859,299 +1131,295 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   68:../../libDaisy//src/hid/switch.h **** 
   69:../../libDaisy//src/hid/switch.h ****     /** \return true if a button was just pressed. */
   70:../../libDaisy//src/hid/switch.h ****     inline bool RisingEdge() const { return updated_ ? state_ == 0x7f : false; }
- 196              		.loc 1 70 45 view .LVU45
- 197 002e 1C49     		ldr	r1, .L17+4
- 198              	.LBE131:
- 199              	.LBE130:
-  55:Granulator.cpp **** 
- 200              		.loc 9 55 35 view .LVU46
- 201 0030 D4E90007 		ldrd	r0, r7, [r4]
-  54:Granulator.cpp ****     buffer_r[write_pos] =  in[1][0]; 
- 202              		.loc 9 54 25 view .LVU47
- 203 0034 1C4C     		ldr	r4, .L17+12
- 204              	.LVL7:
-  54:Granulator.cpp ****     buffer_r[write_pos] =  in[1][0]; 
- 205              		.loc 9 54 35 view .LVU48
- 206 0036 D0F800E0 		ldr	lr, [r0]	@ float
-  54:Granulator.cpp ****     buffer_r[write_pos] =  in[1][0]; 
- 207              		.loc 9 54 25 view .LVU49
- 208 003a 04EB830C 		add	ip, r4, r3, lsl #2
-  55:Granulator.cpp **** 
- 209              		.loc 9 55 25 view .LVU50
- 210 003e 1B48     		ldr	r0, .L17+16
-  57:Granulator.cpp ****     out[1][0] = buffer_r[read_pos];
- 211              		.loc 9 57 34 view .LVU51
- 212 0040 04EB8204 		add	r4, r4, r2, lsl #2
-  55:Granulator.cpp **** 
- 213              		.loc 9 55 25 view .LVU52
- 214 0044 00EB8303 		add	r3, r0, r3, lsl #2
-  58:Granulator.cpp ****     write_pos++;
- 215              		.loc 9 58 34 view .LVU53
- 216 0048 00EB8200 		add	r0, r0, r2, lsl #2
-  58:Granulator.cpp ****     write_pos++;
- 217              		.loc 9 58 15 view .LVU54
- 218 004c D5E90065 		ldrd	r6, r5, [r5]
- 219              	.LVL8:
-  54:Granulator.cpp ****     buffer_r[write_pos] =  in[1][0]; 
- 220              		.loc 9 54 25 view .LVU55
- 221 0050 CCF800E0 		str	lr, [ip]	@ float
-  55:Granulator.cpp **** 
- 222              		.loc 9 55 35 view .LVU56
- 223 0054 D7F800C0 		ldr	ip, [r7]	@ float
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 16
+ 326              		.loc 1 70 17 view .LVU110
+ 327              	.LBB131:
+ 328              		.loc 1 70 38 view .LVU111
+ 329              		.loc 1 70 45 is_stmt 0 view .LVU112
+ 330 00c8 1A4B     		ldr	r3, .L22+4
+ 331              		.loc 1 70 54 view .LVU113
+ 332 00ca 1A79     		ldrb	r2, [r3, #4]	@ zero_extendqisi2
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 20
 
 
-  55:Granulator.cpp **** 
- 224              		.loc 9 55 25 view .LVU57
- 225 0058 C3F800C0 		str	ip, [r3]	@ float
-  57:Granulator.cpp ****     out[1][0] = buffer_r[read_pos];
- 226              		.loc 9 57 34 view .LVU58
- 227 005c 2368     		ldr	r3, [r4]	@ float
-  57:Granulator.cpp ****     out[1][0] = buffer_r[read_pos];
- 228              		.loc 9 57 15 view .LVU59
- 229 005e 3360     		str	r3, [r6]	@ float
-  58:Granulator.cpp ****     write_pos++;
- 230              		.loc 9 58 34 view .LVU60
- 231 0060 0068     		ldr	r0, [r0]	@ float
- 232              	.LBB134:
- 233              	.LBB132:
- 234              		.loc 1 70 54 view .LVU61
- 235 0062 0B79     		ldrb	r3, [r1, #4]	@ zero_extendqisi2
- 236              	.LBE132:
- 237              	.LBE134:
-  58:Granulator.cpp ****     write_pos++;
- 238              		.loc 9 58 15 view .LVU62
- 239 0064 2860     		str	r0, [r5]	@ float
- 240 0066 1248     		ldr	r0, .L17+20
- 241 0068 0260     		str	r2, [r0]
-  54:Granulator.cpp ****     buffer_r[write_pos] =  in[1][0]; 
- 242              		.loc 9 54 5 is_stmt 1 view .LVU63
-  55:Granulator.cpp **** 
- 243              		.loc 9 55 5 view .LVU64
-  57:Granulator.cpp ****     out[1][0] = buffer_r[read_pos];
- 244              		.loc 9 57 5 view .LVU65
-  58:Granulator.cpp ****     write_pos++;
- 245              		.loc 9 58 5 view .LVU66
- 246              		.loc 9 59 5 view .LVU67
-  60:Granulator.cpp **** 
-  61:Granulator.cpp ****     if(button.RisingEdge())
- 247              		.loc 9 61 5 view .LVU68
- 248              	.LVL9:
- 249              	.LBB135:
- 250              	.LBI130:
- 251              		.loc 1 70 17 view .LVU69
- 252              	.LBB133:
- 253              		.loc 1 70 38 view .LVU70
- 254              		.loc 1 70 54 is_stmt 0 view .LVU71
- 255 006a 3BB1     		cbz	r3, .L4
- 256              	.LVL10:
- 257              		.loc 1 70 54 view .LVU72
- 258              	.LBE133:
- 259              	.LBE135:
- 260              		.loc 9 61 5 view .LVU73
- 261 006c 8B7A     		ldrb	r3, [r1, #10]	@ zero_extendqisi2
- 262 006e 7F2B     		cmp	r3, #127
- 263 0070 04D1     		bne	.L4
-  62:Granulator.cpp ****     {
-  63:Granulator.cpp ****         if(button_pressed == 0)
- 264              		.loc 9 63 9 is_stmt 1 view .LVU74
- 265              		.loc 9 63 27 is_stmt 0 view .LVU75
- 266 0072 104B     		ldr	r3, .L17+24
- 267 0074 1A68     		ldr	r2, [r3]
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 17
+ 333 00cc 3AB1     		cbz	r2, .L4
+ 334              	.LVL12:
+ 335              		.loc 1 70 54 view .LVU114
+ 336              	.LBE131:
+ 337              	.LBE130:
+ 338              		.loc 9 163 5 view .LVU115
+ 339 00ce 9B7A     		ldrb	r3, [r3, #10]	@ zero_extendqisi2
+ 340 00d0 7F2B     		cmp	r3, #127
+ 341 00d2 04D1     		bne	.L4
+ 164:Granulator.cpp ****     {
+ 165:Granulator.cpp ****         if(button_pressed == 0)
+ 342              		.loc 9 165 9 is_stmt 1 view .LVU116
+ 343              		.loc 9 165 27 is_stmt 0 view .LVU117
+ 344 00d4 204B     		ldr	r3, .L22+40
+ 345 00d6 1A68     		ldr	r2, [r3]
+ 346              		.loc 9 165 9 view .LVU118
+ 347 00d8 22BB     		cbnz	r2, .L15
+ 166:Granulator.cpp ****         {
+ 167:Granulator.cpp ****             button_pressed = 1;
+ 348              		.loc 9 167 13 is_stmt 1 view .LVU119
+ 349              		.loc 9 167 28 is_stmt 0 view .LVU120
+ 350 00da 0122     		movs	r2, #1
+ 351 00dc 1A60     		str	r2, [r3]
+ 352              	.L4:
+ 168:Granulator.cpp ****             // patch.WriteCvOut(2, (5.f));
+ 169:Granulator.cpp ****         }
+ 170:Granulator.cpp ****         else if(button_pressed == 1)
+ 171:Granulator.cpp ****         {
+ 172:Granulator.cpp ****             button_pressed = 0; 
+ 173:Granulator.cpp ****             // patch.WriteCvOut(2, (0.f));
+ 174:Granulator.cpp ****         }
+ 175:Granulator.cpp ****     }
+ 176:Granulator.cpp **** }
+ 353              		.loc 9 176 1 view .LVU121
+ 354 00de F8BD     		pop	{r3, r4, r5, r6, r7, pc}
+ 355              	.LVL13:
+ 356              	.L12:
+ 159:Granulator.cpp ****     }
+ 357              		.loc 9 159 9 is_stmt 1 view .LVU122
+ 159:Granulator.cpp ****     }
+ 358              		.loc 9 159 25 is_stmt 0 view .LVU123
+ 359 00e0 9FED1E0A 		vldr.32	s0, .L22+44
+ 360 00e4 0221     		movs	r1, #2
+ 361 00e6 1248     		ldr	r0, .L22
+ 362 00e8 FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM10WriteCvOutEif
+ 363              	.LVL14:
+ 364 00ec ECE7     		b	.L13
+ 365              	.L7:
+ 139:Granulator.cpp ****     {
+ 366              		.loc 9 139 5 is_stmt 1 view .LVU124
+  49:Granulator.cpp ****     // patch.WriteCvOut(2, (time_knob*5));
+ 367              		.loc 9 49 14 is_stmt 0 view .LVU125
+ 368 00ee BEEECD0A 		vcvt.s32.f32	s0, s0, #6
+ 139:Granulator.cpp ****     {
+ 369              		.loc 9 139 42 view .LVU126
+ 370 00f2 4AF64441 		movw	r1, #44100
+ 371 00f6 10EE100A 		vmov	r0, s0	@ int
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 21
 
 
- 268              		.loc 9 63 9 view .LVU76
- 269 0076 5AB9     		cbnz	r2, .L9
-  64:Granulator.cpp ****         {
-  65:Granulator.cpp ****             button_pressed = 1;
- 270              		.loc 9 65 13 is_stmt 1 view .LVU77
- 271              		.loc 9 65 28 is_stmt 0 view .LVU78
- 272 0078 0122     		movs	r2, #1
- 273 007a 1A60     		str	r2, [r3]
- 274              	.L4:
-  66:Granulator.cpp ****             // patch.WriteCvOut(2, (5.f));
-  67:Granulator.cpp ****         }
-  68:Granulator.cpp ****         else if(button_pressed == 1)
-  69:Granulator.cpp ****         {
-  70:Granulator.cpp ****             button_pressed = 0; 
-  71:Granulator.cpp ****             // patch.WriteCvOut(2, (0.f));
-  72:Granulator.cpp ****         }
-  73:Granulator.cpp ****     }
-  74:Granulator.cpp **** }
- 275              		.loc 9 74 1 view .LVU79
- 276 007c F8BD     		pop	{r3, r4, r5, r6, r7, pc}
- 277              	.LVL11:
- 278              	.L16:
-  42:Granulator.cpp ****     if(offset < 0)
- 279              		.loc 9 42 5 is_stmt 1 view .LVU80
-  42:Granulator.cpp ****     if(offset < 0)
- 280              		.loc 9 42 24 is_stmt 0 view .LVU81
- 281 007e 0E4A     		ldr	r2, .L17+28
-  59:Granulator.cpp **** 
- 282              		.loc 9 59 14 view .LVU82
- 283 0080 581C     		adds	r0, r3, #1
-  42:Granulator.cpp ****     if(offset < 0)
- 284              		.loc 9 42 24 view .LVU83
- 285 0082 1A44     		add	r2, r2, r3
-  43:Granulator.cpp ****     {
- 286              		.loc 9 43 5 is_stmt 1 view .LVU84
- 287 0084 002A     		cmp	r2, #0
-  46:Granulator.cpp ****     }
- 288              		.loc 9 46 27 is_stmt 0 view .LVU85
- 289 0086 BCBF     		itt	lt
- 290 0088 48F23452 		movwlt	r2, #34100
- 291 008c D218     		addlt	r2, r2, r3
- 292 008e CDE7     		b	.L7
- 293              	.LVL12:
- 294              	.L9:
-  68:Granulator.cpp ****         {
- 295              		.loc 9 68 14 is_stmt 1 view .LVU86
- 296 0090 012A     		cmp	r2, #1
- 297 0092 F3D1     		bne	.L4
-  70:Granulator.cpp ****             // patch.WriteCvOut(2, (0.f));
- 298              		.loc 9 70 13 view .LVU87
-  70:Granulator.cpp ****             // patch.WriteCvOut(2, (0.f));
- 299              		.loc 9 70 28 is_stmt 0 view .LVU88
- 300 0094 0022     		movs	r2, #0
- 301 0096 1A60     		str	r2, [r3]
- 302              		.loc 9 74 1 view .LVU89
- 303 0098 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
- 304              	.L18:
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 18
+ 372 00fa 91FBF0F1 		sdiv	r1, r1, r0
+ 139:Granulator.cpp ****     {
+ 373              		.loc 9 139 22 view .LVU127
+ 374 00fe 581C     		adds	r0, r3, #1
+ 375 0100 1060     		str	r0, [r2]
+ 139:Granulator.cpp ****     {
+ 376              		.loc 9 139 25 view .LVU128
+ 377 0102 93FBF1F2 		sdiv	r2, r3, r1
+ 378 0106 01FB1233 		mls	r3, r1, r2, r3
+ 139:Granulator.cpp ****     {
+ 379              		.loc 9 139 5 view .LVU129
+ 380 010a 002B     		cmp	r3, #0
+ 381 010c C4D0     		beq	.L10
+ 144:Granulator.cpp ****     {
+ 382              		.loc 9 144 5 is_stmt 1 view .LVU130
+ 383 010e 2378     		ldrb	r3, [r4]	@ zero_extendqisi2
+ 384 0110 002B     		cmp	r3, #0
+ 385 0112 C1D1     		bne	.L10
+ 150:Granulator.cpp ****     {
+ 386              		.loc 9 150 14 is_stmt 0 view .LVU131
+ 387 0114 6368     		ldr	r3, [r4, #4]
+ 388 0116 C3E7     		b	.L11
+ 389              	.LVL15:
+ 390              	.L17:
+ 150:Granulator.cpp ****     {
+ 391              		.loc 9 150 14 view .LVU132
+ 392 0118 0122     		movs	r2, #1
+ 393 011a 0023     		movs	r3, #0
+ 394 011c A9E7     		b	.L6
+ 395              	.L16:
+ 150:Granulator.cpp ****     {
+ 396              		.loc 9 150 14 view .LVU133
+ 397 011e 0121     		movs	r1, #1
+ 398 0120 0022     		movs	r2, #0
+ 399 0122 91E7     		b	.L5
+ 400              	.LVL16:
+ 401              	.L15:
+ 170:Granulator.cpp ****         {
+ 402              		.loc 9 170 14 is_stmt 1 view .LVU134
+ 403 0124 012A     		cmp	r2, #1
+ 404 0126 DAD1     		bne	.L4
+ 172:Granulator.cpp ****             // patch.WriteCvOut(2, (0.f));
+ 405              		.loc 9 172 13 view .LVU135
+ 172:Granulator.cpp ****             // patch.WriteCvOut(2, (0.f));
+ 406              		.loc 9 172 28 is_stmt 0 view .LVU136
+ 407 0128 0022     		movs	r2, #0
+ 408 012a 1A60     		str	r2, [r3]
+ 409              		.loc 9 176 1 view .LVU137
+ 410 012c F8BD     		pop	{r3, r4, r5, r6, r7, pc}
+ 411              	.LVL17:
+ 412              	.L23:
+ 413              		.loc 9 176 1 view .LVU138
+ 414 012e 00BF     		.align	2
+ 415              	.L22:
+ 416 0130 00000000 		.word	.LANCHOR0
+ 417 0134 00000000 		.word	.LANCHOR1
+ 418 0138 00442C47 		.word	1194083328
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 22
 
 
- 305 009a 00BF     		.align	2
- 306              	.L17:
- 307 009c 00000000 		.word	.LANCHOR0
- 308 00a0 00000000 		.word	.LANCHOR1
- 309 00a4 00000000 		.word	.LANCHOR2
- 310 00a8 00000000 		.word	buffer_l
- 311 00ac 00000000 		.word	buffer_r
- 312 00b0 00000000 		.word	.LANCHOR3
- 313 00b4 00000000 		.word	.LANCHOR4
- 314 00b8 F0D8FFFF 		.word	-10000
- 315              		.cfi_endproc
- 316              	.LFE4783:
- 318              		.section	.text.startup.main,"ax",%progbits
- 319              		.align	1
- 320              		.p2align 2,,3
- 321              		.global	main
- 322              		.syntax unified
- 323              		.thumb
- 324              		.thumb_func
- 325              		.fpu fpv5-d16
- 327              	main:
- 328              	.LFB4784:
-  75:Granulator.cpp **** 
-  76:Granulator.cpp **** int main(void)
-  77:Granulator.cpp **** {
- 329              		.loc 9 77 1 is_stmt 1 view -0
- 330              		.cfi_startproc
- 331              		@ Volatile: function does not return.
- 332              		@ args = 0, pretend = 0, frame = 0
- 333              		@ frame_needed = 0, uses_anonymous_args = 0
-  78:Granulator.cpp ****     // delMems[0].Init();
-  79:Granulator.cpp ****     // delMems[0].SetDelay(delayTimeInSamples);
-  80:Granulator.cpp ****     // delMems[1].Init();
-  81:Granulator.cpp ****     // delMems[1].SetDelay(delayTimeInSamples);
-  82:Granulator.cpp **** 
-  83:Granulator.cpp **** 
-  84:Granulator.cpp ****     
-  85:Granulator.cpp ****     patch.Init(); 
- 334              		.loc 9 85 5 view .LVU91
-  77:Granulator.cpp ****     // delMems[0].Init();
- 335              		.loc 9 77 1 is_stmt 0 view .LVU92
- 336 0000 08B5     		push	{r3, lr}
- 337              		.cfi_def_cfa_offset 8
- 338              		.cfi_offset 3, -8
- 339              		.cfi_offset 14, -4
- 340              		.loc 9 85 15 view .LVU93
- 341 0002 0B48     		ldr	r0, .L22
- 342 0004 FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM4InitEv
- 343              	.LVL13:
-  86:Granulator.cpp ****     patch.SetAudioBlockSize(1);
- 344              		.loc 9 86 5 is_stmt 1 view .LVU94
- 345              		.loc 9 86 28 is_stmt 0 view .LVU95
- 346 0008 0121     		movs	r1, #1
- 347 000a 0948     		ldr	r0, .L22
- 348 000c FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM17SetAudioBlockSizeEj
- 349              	.LVL14:
-  87:Granulator.cpp ****     button.Init(patch.D5);
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 19
+ 419 013c 00000000 		.word	.LANCHOR2
+ 420 0140 00000000 		.word	.LANCHOR3
+ 421 0144 00000000 		.word	buffer_l
+ 422 0148 00000000 		.word	buffer_r
+ 423 014c 00000000 		.word	grain_buffer_l
+ 424 0150 00000000 		.word	grain_buffer_r
+ 425 0154 00000000 		.word	.LANCHOR4
+ 426 0158 00000000 		.word	.LANCHOR5
+ 427 015c 00000000 		.word	0
+ 428              		.cfi_endproc
+ 429              	.LFE4783:
+ 431              		.section	.text.startup.main,"ax",%progbits
+ 432              		.align	1
+ 433              		.p2align 2,,3
+ 434              		.global	main
+ 435              		.syntax unified
+ 436              		.thumb
+ 437              		.thumb_func
+ 438              		.fpu fpv5-d16
+ 440              	main:
+ 441              	.LFB4784:
+ 177:Granulator.cpp **** 
+ 178:Granulator.cpp **** int main(void)
+ 179:Granulator.cpp **** {
+ 442              		.loc 9 179 1 is_stmt 1 view -0
+ 443              		.cfi_startproc
+ 444              		@ Volatile: function does not return.
+ 445              		@ args = 0, pretend = 0, frame = 0
+ 446              		@ frame_needed = 0, uses_anonymous_args = 0
+ 180:Granulator.cpp ****     //grains[0].Init(&grain1_buffer_l[0], &grain1_buffer_r[0]);
+ 181:Granulator.cpp ****     // for (int i = 0; i < NUM_GRAINS; i++)
+ 182:Granulator.cpp ****     // {
+ 183:Granulator.cpp ****     //     grains[i].write_pos = 0;
+ 184:Granulator.cpp ****     //     grains[i].read_pos = 0;
+ 185:Granulator.cpp ****     //     grains[i].offset = 0;
+ 186:Granulator.cpp ****     // }
+ 187:Granulator.cpp ****     grain.write_pos = 0;
+ 447              		.loc 9 187 5 view .LVU140
+ 179:Granulator.cpp ****     //grains[0].Init(&grain1_buffer_l[0], &grain1_buffer_r[0]);
+ 448              		.loc 9 179 1 is_stmt 0 view .LVU141
+ 449 0000 08B5     		push	{r3, lr}
+ 450              		.cfi_def_cfa_offset 8
+ 451              		.cfi_offset 3, -8
+ 452              		.cfi_offset 14, -4
+ 453              		.loc 9 187 21 view .LVU142
+ 454 0002 0022     		movs	r2, #0
+ 455 0004 0D4B     		ldr	r3, .L27
+ 188:Granulator.cpp ****     grain.read_pos = 0;
+ 189:Granulator.cpp ****     grain.offset = 0;
+ 190:Granulator.cpp ****     grain.triggered = 0;
+ 191:Granulator.cpp ****     grain.triggered_counter = 0;
+ 192:Granulator.cpp ****     patch.Init(); 
+ 456              		.loc 9 192 15 view .LVU143
+ 457 0006 0E48     		ldr	r0, .L27+4
+ 189:Granulator.cpp ****     grain.triggered = 0;
+ 458              		.loc 9 189 18 view .LVU144
+ 459 0008 5A61     		str	r2, [r3, #20]
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 23
 
 
- 350              		.loc 9 87 5 is_stmt 1 view .LVU96
- 351              		.loc 9 87 16 is_stmt 0 view .LVU97
- 352 0010 084B     		ldr	r3, .L22+4
- 353 0012 0948     		ldr	r0, .L22+8
- 354 0014 1A78     		ldrb	r2, [r3]	@ zero_extendqisi2
- 355 0016 5978     		ldrb	r1, [r3, #1]	@ zero_extendqisi2
- 356 0018 9FED080A 		vldr.32	s0, .L22+12
- 357 001c 42EA0121 		orr	r1, r2, r1, lsl #8
- 358 0020 FFF7FEFF 		bl	_ZN5daisy6Switch4InitE12dsy_gpio_pinf
- 359              	.LVL15:
-  88:Granulator.cpp ****     patch.StartAudio(AudioCallback);
- 360              		.loc 9 88 5 is_stmt 1 view .LVU98
- 361              		.loc 9 88 21 is_stmt 0 view .LVU99
- 362 0024 0649     		ldr	r1, .L22+16
- 363 0026 0248     		ldr	r0, .L22
- 364 0028 FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM10StartAudioEPFvPKPKfPPfjE
- 365              	.LVL16:
- 366              	.L20:
-  89:Granulator.cpp ****     while(1) {}
- 367              		.loc 9 89 5 is_stmt 1 discriminator 1 view .LVU100
- 368              		.loc 9 89 5 discriminator 1 view .LVU101
- 369              		.loc 9 89 5 discriminator 1 view .LVU102
- 370              		.loc 9 89 5 discriminator 1 view .LVU103
- 371 002c FEE7     		b	.L20
- 372              	.L23:
- 373 002e 00BF     		.align	2
- 374              	.L22:
- 375 0030 00000000 		.word	.LANCHOR0
- 376 0034 00000000 		.word	_ZN5daisy8patch_sm12DaisyPatchSM2D5E
- 377 0038 00000000 		.word	.LANCHOR1
- 378 003c 00000000 		.word	0
- 379 0040 00000000 		.word	_Z13AudioCallbackPKPKfPPfj
- 380              		.cfi_endproc
- 381              	.LFE4784:
- 383              		.section	.text.startup._GLOBAL__sub_I_patch,"ax",%progbits
- 384              		.align	1
- 385              		.p2align 2,,3
- 386              		.syntax unified
- 387              		.thumb
- 388              		.thumb_func
- 389              		.fpu fpv5-d16
- 391              	_GLOBAL__sub_I_patch:
- 392              	.LFB5344:
-  90:Granulator.cpp **** }...
- 393              		.loc 9 90 1 view -0
- 394              		.cfi_startproc
- 395              		@ args = 0, pretend = 0, frame = 0
- 396              		@ frame_needed = 0, uses_anonymous_args = 0
- 397              	.LBB166:
- 398              	.LBI166:
- 399              		.loc 9 90 1 view .LVU105
- 400              	.LVL17:
- 401              	.LBB167:
- 402              	.LBB168:
- 403              	.LBI168:
+ 190:Granulator.cpp ****     grain.triggered_counter = 0;
+ 460              		.loc 9 190 21 view .LVU145
+ 461 000a 1A70     		strb	r2, [r3]
+ 191:Granulator.cpp ****     patch.Init(); 
+ 462              		.loc 9 191 29 view .LVU146
+ 463 000c 5A60     		str	r2, [r3, #4]
+ 188:Granulator.cpp ****     grain.offset = 0;
+ 464              		.loc 9 188 20 view .LVU147
+ 465 000e C3E90322 		strd	r2, r2, [r3, #12]
+ 189:Granulator.cpp ****     grain.triggered = 0;
+ 466              		.loc 9 189 5 is_stmt 1 view .LVU148
+ 190:Granulator.cpp ****     grain.triggered_counter = 0;
+ 467              		.loc 9 190 5 view .LVU149
+ 191:Granulator.cpp ****     patch.Init(); 
+ 468              		.loc 9 191 5 view .LVU150
+ 469              		.loc 9 192 5 view .LVU151
+ 470              		.loc 9 192 15 is_stmt 0 view .LVU152
+ 471 0012 FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM4InitEv
+ 472              	.LVL18:
+ 193:Granulator.cpp ****     patch.SetAudioBlockSize(1);
+ 473              		.loc 9 193 5 is_stmt 1 view .LVU153
+ 474              		.loc 9 193 28 is_stmt 0 view .LVU154
+ 475 0016 0121     		movs	r1, #1
+ 476 0018 0948     		ldr	r0, .L27+4
+ 477 001a FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM17SetAudioBlockSizeEj
+ 478              	.LVL19:
+ 194:Granulator.cpp ****     button.Init(patch.D5);
+ 479              		.loc 9 194 5 is_stmt 1 view .LVU155
+ 480              		.loc 9 194 16 is_stmt 0 view .LVU156
+ 481 001e 094B     		ldr	r3, .L27+8
+ 482 0020 0948     		ldr	r0, .L27+12
+ 483 0022 1A78     		ldrb	r2, [r3]	@ zero_extendqisi2
+ 484 0024 5978     		ldrb	r1, [r3, #1]	@ zero_extendqisi2
+ 485 0026 9FED090A 		vldr.32	s0, .L27+16
+ 486 002a 42EA0121 		orr	r1, r2, r1, lsl #8
+ 487 002e FFF7FEFF 		bl	_ZN5daisy6Switch4InitE12dsy_gpio_pinf
+ 488              	.LVL20:
+ 195:Granulator.cpp ****     patch.StartAudio(AudioCallback);
+ 489              		.loc 9 195 5 is_stmt 1 view .LVU157
+ 490              		.loc 9 195 21 is_stmt 0 view .LVU158
+ 491 0032 0749     		ldr	r1, .L27+20
+ 492 0034 0248     		ldr	r0, .L27+4
+ 493 0036 FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM10StartAudioEPFvPKPKfPPfjE
+ 494              	.LVL21:
+ 495              	.L25:
+ 196:Granulator.cpp ****     while(1) {}
+ 496              		.loc 9 196 5 is_stmt 1 discriminator 1 view .LVU159
+ 497              		.loc 9 196 5 discriminator 1 view .LVU160
+ 498              		.loc 9 196 5 discriminator 1 view .LVU161
+ 499              		.loc 9 196 5 discriminator 1 view .LVU162
+ 500 003a FEE7     		b	.L25
+ 501              	.L28:
+ 502              		.align	2
+ 503              	.L27:
+ 504 003c 00000000 		.word	.LANCHOR2
+ 505 0040 00000000 		.word	.LANCHOR0
+ 506 0044 00000000 		.word	_ZN5daisy8patch_sm12DaisyPatchSM2D5E
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 24
+
+
+ 507 0048 00000000 		.word	.LANCHOR1
+ 508 004c 00000000 		.word	0
+ 509 0050 00000000 		.word	_Z13AudioCallbackPKPKfPPfj
+ 510              		.cfi_endproc
+ 511              	.LFE4784:
+ 513              		.section	.text.startup._GLOBAL__sub_I_patch,"ax",%progbits
+ 514              		.align	1
+ 515              		.p2align 2,,3
+ 516              		.syntax unified
+ 517              		.thumb
+ 518              		.thumb_func
+ 519              		.fpu fpv5-d16
+ 521              	_GLOBAL__sub_I_patch:
+ 522              	.LFB5344:
+ 197:Granulator.cpp **** }...
+ 523              		.loc 9 197 1 view -0
+ 524              		.cfi_startproc
+ 525              		@ args = 0, pretend = 0, frame = 0
+ 526              		@ frame_needed = 0, uses_anonymous_args = 0
+ 527              	.LBB162:
+ 528              	.LBI162:
+ 529              		.loc 9 197 1 view .LVU164
+ 530              	.LVL22:
+ 531              	.LBB163:
+ 532              	.LBB164:
+ 533              	.LBI164:
   64:../../libDaisy//src/daisy_patch_sm.h ****         ~DaisyPatchSM() {}
- 404              		.loc 2 64 9 view .LVU106
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 20
-
-
- 405              	.LBB169:
- 406              	.LBB170:
- 407              	.LBI170:
+ 534              		.loc 2 64 9 view .LVU165
+ 535              	.LBB165:
+ 536              	.LBB166:
+ 537              	.LBI166:
   77:../../libDaisy//src/sys/system.h ****     ~System() {}
- 408              		.loc 8 77 5 view .LVU107
+ 538              		.loc 8 77 5 view .LVU166
   77:../../libDaisy//src/sys/system.h ****     ~System() {}
- 409              		.loc 8 77 5 is_stmt 0 view .LVU108
- 410              	.LBE170:
- 411              	.LBB171:
- 412              	.LBI171:
- 413              		.file 10 "../../libDaisy//src/per/qspi.h"
+ 539              		.loc 8 77 5 is_stmt 0 view .LVU167
+ 540              	.LBE166:
+ 541              	.LBB167:
+ 542              	.LBI167:
+ 543              		.file 10 "../../libDaisy//src/per/qspi.h"
    1:../../libDaisy//src/per/qspi.h **** #ifndef DSY_QSPI
    2:../../libDaisy//src/per/qspi.h **** #define DSY_QSPI /**< Macro */
    3:../../libDaisy//src/per/qspi.h **** 
@@ -1170,6 +1438,9 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   16:../../libDaisy//src/per/qspi.h ****     __attribute__((section( \
   17:../../libDaisy//src/per/qspi.h ****         ".qspiflash_bss"))) /**< used for reading memory in memory_mapped mode. */
   18:../../libDaisy//src/per/qspi.h **** 
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 25
+
+
   19:../../libDaisy//src/per/qspi.h **** namespace daisy
   20:../../libDaisy//src/per/qspi.h **** {
   21:../../libDaisy//src/per/qspi.h **** /** @addtogroup serial
@@ -1198,9 +1469,6 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   44:../../libDaisy//src/per/qspi.h ****          *  \param E_HAL_ERROR - HAL code did not return HAL_OK.
   45:../../libDaisy//src/per/qspi.h ****          *  \param E_SWITCHING_MODES - An error was encountered while switching QSPI peripheral mod
   46:../../libDaisy//src/per/qspi.h ****          *  \param E_INVALID_MODE - QSPI should not be written to while the program is executing fr
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 21
-
-
   47:../../libDaisy//src/per/qspi.h ****          */
   48:../../libDaisy//src/per/qspi.h ****     enum Status
   49:../../libDaisy//src/per/qspi.h ****     {
@@ -1230,6 +1498,9 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   73:../../libDaisy//src/per/qspi.h ****         */
   74:../../libDaisy//src/per/qspi.h ****         enum Mode
   75:../../libDaisy//src/per/qspi.h ****         {
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 26
+
+
   76:../../libDaisy//src/per/qspi.h ****             MEMORY_MAPPED,    /**< & */
   77:../../libDaisy//src/per/qspi.h ****             INDIRECT_POLLING, /**< & */
   78:../../libDaisy//src/per/qspi.h ****             MODE_LAST,
@@ -1258,9 +1529,6 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
  101:../../libDaisy//src/per/qspi.h ****     Result Init(const Config& config);
  102:../../libDaisy//src/per/qspi.h **** 
  103:../../libDaisy//src/per/qspi.h ****     /** Returns the current config. */
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 22
-
-
  104:../../libDaisy//src/per/qspi.h ****     const Config& GetConfig() const;
  105:../../libDaisy//src/per/qspi.h **** 
  106:../../libDaisy//src/per/qspi.h ****     // Couldn't this just be called before anything else in init? That
@@ -1290,6 +1558,9 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
  130:../../libDaisy//src/per/qspi.h ****         \return Result::OK or Result::ERR
  131:../../libDaisy//src/per/qspi.h ****         */
  132:../../libDaisy//src/per/qspi.h ****     Result Write(uint32_t address, uint32_t size, uint8_t* buffer);
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 27
+
+
  133:../../libDaisy//src/per/qspi.h **** 
  134:../../libDaisy//src/per/qspi.h ****     /** 
  135:../../libDaisy//src/per/qspi.h ****         Erases the area specified on the chip.
@@ -1318,52 +1589,53 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
  158:../../libDaisy//src/per/qspi.h ****      *  The memory at this address is read-only
  159:../../libDaisy//src/per/qspi.h ****      *  to write to it use the Write function.
  160:../../libDaisy//src/per/qspi.h ****      * 
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 23
-
-
  161:../../libDaisy//src/per/qspi.h ****      *  \param offset returns the pointer starting this 
  162:../../libDaisy//src/per/qspi.h ****      *                many bytes into the memory
  163:../../libDaisy//src/per/qspi.h ****     */
  164:../../libDaisy//src/per/qspi.h ****     void* GetData(uint32_t offset = 0);
  165:../../libDaisy//src/per/qspi.h **** 
  166:../../libDaisy//src/per/qspi.h ****     QSPIHandle() : pimpl_(nullptr) {}
- 414              		.loc 10 166 5 is_stmt 1 view .LVU109
- 415              	.LBE171:
- 416              	.LBE169:
- 417              	.LBE168:
- 418              	.LBE167:
- 419              	.LBE166:
- 420              		.loc 9 90 1 is_stmt 0 view .LVU110
- 421 0000 08B5     		push	{r3, lr}
- 422              		.cfi_def_cfa_offset 8
- 423              		.cfi_offset 3, -8
- 424              		.cfi_offset 14, -4
- 425              	.LBB205:
- 426              	.LBB203:
- 427              	.LBB198:
- 428              	.LBB194:
- 429              	.LBB174:
- 430              	.LBB172:
- 431              	.LBB173:
- 432              		.loc 10 166 34 view .LVU111
- 433 0002 0E48     		ldr	r0, .L26
- 434 0004 0023     		movs	r3, #0
- 435              	.LBE173:
- 436              	.LBE172:
- 437              	.LBE174:
- 438              	.LBE194:
- 439              	.LBE198:
-  10:Granulator.cpp **** DaisyPatchSM patch;
- 440              		.loc 9 10 14 view .LVU112
- 441 0006 0E4A     		ldr	r2, .L26+4
- 442              	.LBB199:
- 443              	.LBB195:
- 444              	.LBB175:
- 445              	.LBB176:
- 446              	.LBB177:
- 447              	.LBB178:
- 448              	.LBB179:
- 449              		.file 11 "../../libDaisy//src/per/i2c.h"
+ 544              		.loc 10 166 5 is_stmt 1 view .LVU168
+ 545              	.LBE167:
+ 546              	.LBE165:
+ 547              	.LBE164:
+ 548              	.LBE163:
+ 549              	.LBE162:
+ 550              		.loc 9 197 1 is_stmt 0 view .LVU169
+ 551 0000 08B5     		push	{r3, lr}
+ 552              		.cfi_def_cfa_offset 8
+ 553              		.cfi_offset 3, -8
+ 554              		.cfi_offset 14, -4
+ 555              	.LBB200:
+ 556              	.LBB197:
+ 557              	.LBB193:
+ 558              	.LBB190:
+ 559              	.LBB170:
+ 560              	.LBB168:
+ 561              	.LBB169:
+ 562              		.loc 10 166 34 view .LVU170
+ 563 0002 0848     		ldr	r0, .L31
+ 564 0004 0023     		movs	r3, #0
+ 565              	.LBE169:
+ 566              	.LBE168:
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 28
+
+
+ 567              	.LBE170:
+ 568              	.LBE190:
+ 569              	.LBE193:
+  20:Granulator.cpp **** DaisyPatchSM patch;
+ 570              		.loc 9 20 14 view .LVU171
+ 571 0006 084A     		ldr	r2, .L31+4
+ 572 0008 0849     		ldr	r1, .L31+8
+ 573              	.LBB194:
+ 574              	.LBB191:
+ 575              	.LBB171:
+ 576              	.LBB172:
+ 577              	.LBB173:
+ 578              	.LBB174:
+ 579              	.LBB175:
+ 580              		.file 11 "../../libDaisy//src/per/i2c.h"
    1:../../libDaisy//src/per/i2c.h **** #pragma once
    2:../../libDaisy//src/per/i2c.h **** #include "daisy_core.h"
    3:../../libDaisy//src/per/i2c.h **** 
@@ -1378,9 +1650,6 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   12:../../libDaisy//src/per/i2c.h ****  *      I2CHandle::Config i2c_conf;
   13:../../libDaisy//src/per/i2c.h ****  *      i2c_conf.periph = I2CHandle::Config::Peripheral::I2C_1;
   14:../../libDaisy//src/per/i2c.h ****  *      i2c_conf.speed  = I2CHandle::Config::Speed::I2C_400KHZ;
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 24
-
-
   15:../../libDaisy//src/per/i2c.h ****  *      i2c_conf.mode   = I2CHandle::Config::Mode::Master;
   16:../../libDaisy//src/per/i2c.h ****  *      i2c_conf.pin_config.scl  = {DSY_GPIOB, 8};
   17:../../libDaisy//src/per/i2c.h ****  *      i2c_conf.pin_config.sda  = {DSY_GPIOB, 9};
@@ -1409,6 +1678,9 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   40:../../libDaisy//src/per/i2c.h ****             I2C_1 = 0, /**< & */
   41:../../libDaisy//src/per/i2c.h ****             I2C_2,     /**< & */
   42:../../libDaisy//src/per/i2c.h ****             I2C_3,     /**< & */
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 29
+
+
   43:../../libDaisy//src/per/i2c.h ****             I2C_4,     /**< & */
   44:../../libDaisy//src/per/i2c.h ****         };
   45:../../libDaisy//src/per/i2c.h **** 
@@ -1438,9 +1710,6 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   69:../../libDaisy//src/per/i2c.h ****     /** Return values for I2C functions. */
   70:../../libDaisy//src/per/i2c.h ****     enum class Result
   71:../../libDaisy//src/per/i2c.h ****     {
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 25
-
-
   72:../../libDaisy//src/per/i2c.h ****         OK, /**< & */
   73:../../libDaisy//src/per/i2c.h ****         ERR /**< & */
   74:../../libDaisy//src/per/i2c.h ****     };
@@ -1452,23 +1721,26 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   80:../../libDaisy//src/per/i2c.h ****     };
   81:../../libDaisy//src/per/i2c.h **** 
   82:../../libDaisy//src/per/i2c.h ****     I2CHandle() : pimpl_(nullptr) {}
- 450              		.loc 11 82 33 view .LVU113
- 451 0008 0362     		str	r3, [r0, #32]
- 452              	.LBE179:
- 453              	.LBE178:
- 454              	.LBE177:
- 455              	.LBE176:
- 456              	.LBE175:
- 457              	.LBB182:
- 458              	.LBB183:
- 459              	.LBB184:
- 460              		.file 12 "../../libDaisy//src/per/dac.h"
+ 581              		.loc 11 82 33 view .LVU172
+ 582 000a 0362     		str	r3, [r0, #32]
+ 583              	.LBE175:
+ 584              	.LBE174:
+ 585              	.LBE173:
+ 586              	.LBE172:
+ 587              	.LBE171:
+ 588              	.LBB178:
+ 589              	.LBB179:
+ 590              	.LBB180:
+ 591              		.file 12 "../../libDaisy//src/per/dac.h"
    1:../../libDaisy//src/per/dac.h **** #pragma once
    2:../../libDaisy//src/per/dac.h **** #ifndef DSY_DAC_H
    3:../../libDaisy//src/per/dac.h **** #define DSY_DAC_H
    4:../../libDaisy//src/per/dac.h **** 
    5:../../libDaisy//src/per/dac.h **** #include "daisy_core.h"
    6:../../libDaisy//src/per/dac.h **** 
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 30
+
+
    7:../../libDaisy//src/per/dac.h **** namespace daisy
    8:../../libDaisy//src/per/dac.h **** {
    9:../../libDaisy//src/per/dac.h **** /** @brief DAC handle for Built-in DAC Peripheral 
@@ -1498,9 +1770,6 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   33:../../libDaisy//src/per/dac.h ****     {
   34:../../libDaisy//src/per/dac.h ****         ONE,
   35:../../libDaisy//src/per/dac.h ****         TWO,
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 26
-
-
   36:../../libDaisy//src/per/dac.h ****         BOTH,
   37:../../libDaisy//src/per/dac.h ****     };
   38:../../libDaisy//src/per/dac.h **** 
@@ -1529,6 +1798,9 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   61:../../libDaisy//src/per/dac.h **** 
   62:../../libDaisy//src/per/dac.h ****     /** Sets whether the DAC output is buffered for higher drive ability. */
   63:../../libDaisy//src/per/dac.h ****     enum class BufferState
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 31
+
+
   64:../../libDaisy//src/per/dac.h ****     {
   65:../../libDaisy//src/per/dac.h ****         ENABLED,
   66:../../libDaisy//src/per/dac.h ****         DISABLED,
@@ -1550,306 +1822,296 @@ ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 1
   82:../../libDaisy//src/per/dac.h ****     };
   83:../../libDaisy//src/per/dac.h **** 
   84:../../libDaisy//src/per/dac.h ****     DacHandle() : pimpl_(nullptr) {}
- 461              		.loc 12 84 33 view .LVU114
- 462 000a 8362     		str	r3, [r0, #40]
- 463              	.LBE184:
- 464              	.LBE183:
- 465              	.LBE182:
- 466              	.LBE195:
- 467              	.LBE199:
-  10:Granulator.cpp **** DaisyPatchSM patch;
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 27
-
-
- 468              		.loc 9 10 14 view .LVU115
- 469 000c 0D49     		ldr	r1, .L26+8
- 470              	.LBB200:
- 471              	.LBB196:
- 472              	.LBB185:
- 473              	.LBB186:
- 474              	.LBB187:
+ 592              		.loc 12 84 33 view .LVU173
+ 593 000c 8362     		str	r3, [r0, #40]
+ 594              	.LBE180:
+ 595              	.LBE179:
+ 596              	.LBE178:
+ 597              	.LBB181:
+ 598              	.LBB182:
+ 599              	.LBB183:
   95:../../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
- 475              		.loc 7 95 35 view .LVU116
- 476 000e C0E90333 		strd	r3, r3, [r0, #12]
- 477              	.LVL18:
+ 600              		.loc 7 95 35 view .LVU174
+ 601 000e C0E90333 		strd	r3, r3, [r0, #12]
+ 602              	.LVL23:
   95:../../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
- 478              		.loc 7 95 35 view .LVU117
- 479              	.LBE187:
- 480              	.LBE186:
- 481              	.LBE185:
- 482              	.LBB188:
- 483              	.LBI188:
+ 603              		.loc 7 95 35 view .LVU175
+ 604              	.LBE183:
+ 605              	.LBE182:
+ 606              	.LBE181:
+ 607              	.LBB184:
+ 608              	.LBI184:
   92:../../libDaisy//src/per/adc.h ****     ~AdcHandle() {}
- 484              		.loc 6 92 5 is_stmt 1 view .LVU118
+ 609              		.loc 6 92 5 is_stmt 1 view .LVU176
   92:../../libDaisy//src/per/adc.h ****     ~AdcHandle() {}
- 485              		.loc 6 92 5 is_stmt 0 view .LVU119
- 486              	.LBE188:
- 487              	.LBB189:
- 488              	.LBI189:
+ 610              		.loc 6 92 5 is_stmt 0 view .LVU177
+ 611              	.LBE184:
+ 612              	.LBB185:
+ 613              	.LBI185:
   40:../../libDaisy//src/hid/usb.h **** 
- 489              		.loc 5 40 5 is_stmt 1 view .LVU120
+ 614              		.loc 5 40 5 is_stmt 1 view .LVU178
   40:../../libDaisy//src/hid/usb.h **** 
- 490              		.loc 5 40 5 is_stmt 0 view .LVU121
- 491              	.LBE189:
- 492              	.LBB190:
- 493              	.LBI175:
+ 615              		.loc 5 40 5 is_stmt 0 view .LVU179
+ 616              	.LBE185:
+ 617              	.LBB186:
+ 618              	.LBI171:
   28:../../libDaisy//src/dev/codec_pcm3060.h ****     ~Pcm3060() {}
- 494              		.loc 4 28 5 is_stmt 1 view .LVU122
- 495              	.LBB181:
- 496              	.LBB180:
- 497              	.LBI177:
- 498              		.loc 11 82 5 view .LVU123
- 499              		.loc 11 82 5 is_stmt 0 view .LVU124
- 500              	.LBE180:
- 501              	.LBE181:
- 502              	.LBE190:
- 503              	.LBB191:
- 504              	.LBI182:
- 505              		.loc 12 84 5 is_stmt 1 view .LVU125
- 506              		.loc 12 84 5 is_stmt 0 view .LVU126
- 507              	.LBE191:
- 508              	.LBE196:
- 509              	.LBE200:
- 510              	.LBE203:
- 511              	.LBE205:
+ 619              		.loc 4 28 5 is_stmt 1 view .LVU180
+ 620              	.LBB177:
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 32
+
+
+ 621              	.LBB176:
+ 622              	.LBI173:
+ 623              		.loc 11 82 5 view .LVU181
+ 624              		.loc 11 82 5 is_stmt 0 view .LVU182
+ 625              	.LBE176:
+ 626              	.LBE177:
+ 627              	.LBE186:
+ 628              	.LBB187:
+ 629              	.LBI178:
+ 630              		.loc 12 84 5 is_stmt 1 view .LVU183
+ 631              		.loc 12 84 5 is_stmt 0 view .LVU184
+ 632              	.LBE187:
+ 633              	.LBE191:
+ 634              	.LBE194:
+ 635              	.LBE197:
+ 636              	.LBE200:
   64:../../libDaisy//src/daisy_patch_sm.h ****         ~DaisyPatchSM() {}
- 512              		.loc 2 64 24 is_stmt 1 view .LVU127
- 513              	.LBB206:
- 514              	.LBB204:
- 515              	.LBB201:
- 516              	.LBB197:
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 28
-
-
- 517              	.LBB192:
- 518              	.LBI192:
+ 637              		.loc 2 64 24 is_stmt 1 view .LVU185
+ 638              	.LBB201:
+ 639              	.LBB198:
+ 640              	.LBB195:
+ 641              	.LBB192:
+ 642              	.LBB188:
+ 643              	.LBI188:
   20:../../libDaisy//src/hid/gatein.h ****     /** GateIn~
- 519              		.loc 3 20 5 view .LVU128
+ 644              		.loc 3 20 5 view .LVU186
   20:../../libDaisy//src/hid/gatein.h ****     /** GateIn~
- 520              		.loc 3 20 5 is_stmt 0 view .LVU129
- 521              	.LBE192:
- 522              	.LBB193:
- 523              	.LBI193:
+ 645              		.loc 3 20 5 is_stmt 0 view .LVU187
+ 646              	.LBE188:
+ 647              	.LBB189:
+ 648              	.LBI189:
   20:../../libDaisy//src/hid/gatein.h ****     /** GateIn~
- 524              		.loc 3 20 5 is_stmt 1 view .LVU130
+ 649              		.loc 3 20 5 is_stmt 1 view .LVU188
   20:../../libDaisy//src/hid/gatein.h ****     /** GateIn~
- 525              		.loc 3 20 5 is_stmt 0 view .LVU131
- 526              	.LBE193:
- 527              	.LBE197:
- 528              	.LBE201:
-  10:Granulator.cpp **** DaisyPatchSM patch;
- 529              		.loc 9 10 14 view .LVU132
- 530 0012 FFF7FEFF 		bl	__aeabi_atexit
- 531              	.LVL19:
- 532              	.LBB202:
- 533              	.LBI202:
+ 650              		.loc 3 20 5 is_stmt 0 view .LVU189
+ 651              	.LBE189:
+ 652              	.LBE192:
+ 653              	.LBE195:
+  20:Granulator.cpp **** DaisyPatchSM patch;
+ 654              		.loc 9 20 14 view .LVU190
+ 655 0012 FFF7FEFF 		bl	__aeabi_atexit
+ 656              	.LVL24:
+ 657              	.LBB196:
+ 658              	.LBI196:
   41:../../libDaisy//src/hid/switch.h ****     ~Switch() {}
- 534              		.loc 1 41 5 is_stmt 1 view .LVU133
+ 659              		.loc 1 41 5 is_stmt 1 view .LVU191
   41:../../libDaisy//src/hid/switch.h ****     ~Switch() {}
- 535              		.loc 1 41 5 is_stmt 0 view .LVU134
- 536              	.LBE202:
-  11:Granulator.cpp **** Switch       button;
- 537              		.loc 9 11 14 view .LVU135
- 538 0016 0A4A     		ldr	r2, .L26+4
- 539 0018 0B49     		ldr	r1, .L26+12
- 540 001a 0C48     		ldr	r0, .L26+16
- 541 001c FFF7FEFF 		bl	__aeabi_atexit
- 542              	.LVL20:
-  18:Granulator.cpp **** size_t delayTimeInSamples = static_cast<size_t>(delayTimeInSeconds * MAX_DELAY); 
- 543              		.loc 9 18 68 view .LVU136
- 544 0020 0B4A     		ldr	r2, .L26+20
- 545 0022 9FED0C7A 		vldr.32	s14, .L26+24
- 546 0026 D2ED007A 		vldr.32	s15, [r2]
-  18:Granulator.cpp **** size_t delayTimeInSamples = static_cast<size_t>(delayTimeInSeconds * MAX_DELAY); 
- 547              		.loc 9 18 8 view .LVU137
- 548 002a 0B4B     		ldr	r3, .L26+28
-  18:Granulator.cpp **** size_t delayTimeInSamples = static_cast<size_t>(delayTimeInSeconds * MAX_DELAY); 
- 549              		.loc 9 18 68 view .LVU138
- 550 002c 67EE877A 		vmul.f32	s15, s15, s14
-  18:Granulator.cpp **** size_t delayTimeInSamples = static_cast<size_t>(delayTimeInSeconds * MAX_DELAY); 
- 551              		.loc 9 18 29 view .LVU139
- 552 0030 FCEEE77A 		vcvt.u32.f32	s15, s15
- 553 0034 C3ED007A 		vstr.32	s15, [r3]	@ int
- 554              	.LVL21:
-  18:Granulator.cpp **** size_t delayTimeInSamples = static_cast<size_t>(delayTimeInSeconds * MAX_DELAY); 
- 555              		.loc 9 18 29 view .LVU140
- 556              	.LBE204:
- 557              	.LBE206:
- 558              		.loc 9 90 1 view .LVU141
- 559 0038 08BD     		pop	{r3, pc}
- 560              	.L27:
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 29
+ 660              		.loc 1 41 5 is_stmt 0 view .LVU192
+ 661              	.LBE196:
+  21:Granulator.cpp **** Switch       button;
+ 662              		.loc 9 21 14 view .LVU193
+ 663 0016 044A     		ldr	r2, .L31+4
+ 664 0018 0549     		ldr	r1, .L31+12
+ 665 001a 0648     		ldr	r0, .L31+16
+ 666              	.LBE198:
+ 667              	.LBE201:
+ 668              		.loc 9 197 1 view .LVU194
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 33
 
 
- 561 003a 00BF     		.align	2
- 562              	.L26:
- 563 003c 00000000 		.word	.LANCHOR0
- 564 0040 00000000 		.word	__dso_handle
- 565 0044 00000000 		.word	_ZN5daisy8patch_sm12DaisyPatchSMD1Ev
- 566 0048 00000000 		.word	_ZN5daisy6SwitchD1Ev
- 567 004c 00000000 		.word	.LANCHOR1
- 568 0050 00000000 		.word	.LANCHOR6
- 569 0054 00442C47 		.word	1194083328
- 570 0058 00000000 		.word	.LANCHOR5
- 571              		.cfi_endproc
- 572              	.LFE5344:
- 574              		.section	.init_array,"aw",%init_array
- 575              		.align	2
- 576 0000 00000000 		.word	_GLOBAL__sub_I_patch(target1)
- 577              		.global	delayTimeInSamples
- 578              		.global	delayTimeInSeconds
- 579              		.global	buffer_r
- 580              		.global	buffer_l
- 581              		.global	button
- 582              		.global	patch
- 583              		.section	.bss._ZZ13AudioCallbackPKPKfPPfjE14button_pressed,"aw",%nobits
- 584              		.align	2
- 585              		.set	.LANCHOR4,. + 0
- 588              	_ZZ13AudioCallbackPKPKfPPfjE14button_pressed:
- 589 0000 00000000 		.space	4
- 590              		.section	.bss._ZZ13AudioCallbackPKPKfPPfjE8read_pos,"aw",%nobits
- 591              		.align	2
- 592              		.set	.LANCHOR3,. + 0
- 595              	_ZZ13AudioCallbackPKPKfPPfjE8read_pos:
- 596 0000 00000000 		.space	4
- 597              		.section	.bss._ZZ13AudioCallbackPKPKfPPfjE9write_pos,"aw",%nobits
- 598              		.align	2
- 599              		.set	.LANCHOR2,. + 0
- 602              	_ZZ13AudioCallbackPKPKfPPfjE9write_pos:
- 603 0000 00000000 		.space	4
- 604              		.section	.bss.button,"aw",%nobits
- 605              		.align	2
- 606              		.set	.LANCHOR1,. + 0
- 609              	button:
- 610 0000 00000000 		.space	16
- 610      00000000 
- 610      00000000 
- 610      00000000 
- 611              		.section	.bss.delayTimeInSamples,"aw",%nobits
- 612              		.align	2
- 613              		.set	.LANCHOR5,. + 0
- 616              	delayTimeInSamples:
- 617 0000 00000000 		.space	4
- 618              		.section	.bss.patch,"aw",%nobits
- 619              		.align	2
- 620              		.set	.LANCHOR0,. + 0
- 623              	patch:
- 624 0000 00000000 		.space	464
- 624      00000000 
- 624      00000000 
- 624      00000000 
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 30
+ 669 001c BDE80840 		pop	{r3, lr}
+ 670              		.cfi_restore 14
+ 671              		.cfi_restore 3
+ 672              		.cfi_def_cfa_offset 0
+ 673              	.LBB202:
+ 674              	.LBB199:
+  21:Granulator.cpp **** Switch       button;
+ 675              		.loc 9 21 14 view .LVU195
+ 676 0020 FFF7FEBF 		b	__aeabi_atexit
+ 677              	.LVL25:
+ 678              	.L32:
+ 679              		.align	2
+ 680              	.L31:
+ 681 0024 00000000 		.word	.LANCHOR0
+ 682 0028 00000000 		.word	__dso_handle
+ 683 002c 00000000 		.word	_ZN5daisy8patch_sm12DaisyPatchSMD1Ev
+ 684 0030 00000000 		.word	_ZN5daisy6SwitchD1Ev
+ 685 0034 00000000 		.word	.LANCHOR1
+ 686              	.LBE199:
+ 687              	.LBE202:
+ 688              		.cfi_endproc
+ 689              	.LFE5344:
+ 691              		.section	.init_array,"aw",%init_array
+ 692              		.align	2
+ 693 0000 00000000 		.word	_GLOBAL__sub_I_patch(target1)
+ 694              		.global	buffer_r
+ 695              		.global	buffer_l
+ 696              		.global	grain_buffer_r
+ 697              		.global	grain_buffer_l
+ 698              		.global	grain
+ 699              		.global	button
+ 700              		.global	patch
+ 701              		.section	.bss._ZZ13AudioCallbackPKPKfPPfjE14button_pressed,"aw",%nobits
+ 702              		.align	2
+ 703              		.set	.LANCHOR5,. + 0
+ 706              	_ZZ13AudioCallbackPKPKfPPfjE14button_pressed:
+ 707 0000 00000000 		.space	4
+ 708              		.section	.bss._ZZ13AudioCallbackPKPKfPPfjE14sample_counter,"aw",%nobits
+ 709              		.align	2
+ 710              		.set	.LANCHOR4,. + 0
+ 713              	_ZZ13AudioCallbackPKPKfPPfjE14sample_counter:
+ 714 0000 00000000 		.space	4
+ 715              		.section	.bss._ZZ13AudioCallbackPKPKfPPfjE9write_pos,"aw",%nobits
+ 716              		.align	2
+ 717              		.set	.LANCHOR3,. + 0
+ 720              	_ZZ13AudioCallbackPKPKfPPfjE9write_pos:
+ 721 0000 00000000 		.space	4
+ 722              		.section	.bss.button,"aw",%nobits
+ 723              		.align	2
+ 724              		.set	.LANCHOR1,. + 0
+ 727              	button:
+ 728 0000 00000000 		.space	16
+ 728      00000000 
+ 728      00000000 
+ 728      00000000 
+ 729              		.section	.bss.grain,"aw",%nobits
+ 730              		.align	2
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 34
 
 
- 624      00000000 
- 625              		.section	.data.delayTimeInSeconds,"aw"
- 626              		.align	2
- 627              		.set	.LANCHOR6,. + 0
- 630              	delayTimeInSeconds:
- 631 0000 CDCCCC3D 		.word	1036831949
- 632              		.section	.sdram_bss,"aw"
- 633              		.align	2
- 636              	buffer_r:
- 637 0000 00000000 		.space	176400
- 637      00000000 
- 637      00000000 
- 637      00000000 
- 637      00000000 
- 640              	buffer_l:
- 641 2b110 00000000 		.space	176400
- 641      00000000 
- 641      00000000 
- 641      00000000 
- 641      00000000 
- 642              		.text
- 643              	.Letext0:
- 644              		.file 13 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 645              		.file 14 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 646              		.file 15 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 647              		.file 16 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\lib\\g
- 648              		.file 17 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 649              		.file 18 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 650              		.file 19 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 651              		.file 20 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 652              		.file 21 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 653              		.file 22 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 654              		.file 23 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 655              		.file 24 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 656              		.file 25 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 657              		.file 26 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 658              		.file 27 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 659              		.file 28 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 660              		.file 29 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 661              		.file 30 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 662              		.file 31 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 663              		.file 32 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 664              		.file 33 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 665              		.file 34 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 666              		.file 35 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 667              		.file 36 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 668              		.file 37 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 669              		.file 38 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 670              		.file 39 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 671              		.file 40 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 672              		.file 41 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 673              		.file 42 "../../libDaisy//src/daisy_core.h"
- 674              		.file 43 "../../libDaisy//src/per/tim.h"
- 675              		.file 44 "../../libDaisy//src/per/sai.h"
- 676              		.file 45 "../../libDaisy//src/hid/ctrl.h"
- 677              		.file 46 "../../libDaisy//src/util/wav_format.h"
- 678              		.file 47 "../../libDaisy//src/dev/max11300.h"
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 31
+ 731              		.set	.LANCHOR2,. + 0
+ 734              	grain:
+ 735 0000 00000000 		.space	24
+ 735      00000000 
+ 735      00000000 
+ 735      00000000 
+ 735      00000000 
+ 736              		.section	.bss.patch,"aw",%nobits
+ 737              		.align	2
+ 738              		.set	.LANCHOR0,. + 0
+ 741              	patch:
+ 742 0000 00000000 		.space	464
+ 742      00000000 
+ 742      00000000 
+ 742      00000000 
+ 742      00000000 
+ 743              		.section	.sdram_bss,"aw"
+ 744              		.align	2
+ 747              	buffer_r:
+ 748 0000 00000000 		.space	176400
+ 748      00000000 
+ 748      00000000 
+ 748      00000000 
+ 748      00000000 
+ 751              	buffer_l:
+ 752 2b110 00000000 		.space	176400
+ 752      00000000 
+ 752      00000000 
+ 752      00000000 
+ 752      00000000 
+ 755              	grain_buffer_r:
+ 756 56220 00000000 		.space	176400
+ 756      00000000 
+ 756      00000000 
+ 756      00000000 
+ 756      00000000 
+ 759              	grain_buffer_l:
+ 760 81330 00000000 		.space	176400
+ 760      00000000 
+ 760      00000000 
+ 760      00000000 
+ 760      00000000 
+ 761              		.text
+ 762              	.Letext0:
+ 763              		.file 13 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 764              		.file 14 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 765              		.file 15 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 766              		.file 16 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\lib\\g
+ 767              		.file 17 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 768              		.file 18 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 769              		.file 19 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 770              		.file 20 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 771              		.file 21 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 772              		.file 22 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 773              		.file 23 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 774              		.file 24 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 775              		.file 25 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 35
 
 
- 679              		.file 48 "../../libDaisy//src/per/gpio.h"
- 680              		.file 49 "../../libDaisy//src/dev/sdram.h"
- 681              		.file 50 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\lib\\g
- 682              		.file 51 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 683              		.file 52 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 684              		.file 53 "../../DaisySP//Source/Control/adenv.h"
- 685              		.file 54 "../../DaisySP//Source/Utility/dsp.h"
- 686              		.file 55 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 687              		.file 56 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
- 688              		.file 57 "../../libDaisy//src/dev/sr_595.h"
- 689              		.file 58 "<built-in>"
-ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s 			page 32
+ 776              		.file 26 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 777              		.file 27 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 778              		.file 28 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 779              		.file 29 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 780              		.file 30 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 781              		.file 31 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 782              		.file 32 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 783              		.file 33 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 784              		.file 34 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 785              		.file 35 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 786              		.file 36 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 787              		.file 37 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 788              		.file 38 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 789              		.file 39 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 790              		.file 40 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 791              		.file 41 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 792              		.file 42 "../../libDaisy//src/daisy_core.h"
+ 793              		.file 43 "../../libDaisy//src/per/tim.h"
+ 794              		.file 44 "../../libDaisy//src/per/sai.h"
+ 795              		.file 45 "../../libDaisy//src/hid/ctrl.h"
+ 796              		.file 46 "../../libDaisy//src/util/wav_format.h"
+ 797              		.file 47 "../../libDaisy//src/dev/max11300.h"
+ 798              		.file 48 "../../libDaisy//src/per/gpio.h"
+ 799              		.file 49 "../../libDaisy//src/dev/sdram.h"
+ 800              		.file 50 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\lib\\g
+ 801              		.file 51 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 802              		.file 52 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 803              		.file 53 "../../DaisySP//Source/Control/adenv.h"
+ 804              		.file 54 "../../DaisySP//Source/Utility/dsp.h"
+ 805              		.file 55 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 806              		.file 56 "c:\\users\\leosc\\documents\\daisytoolchain-0.3.3\\daisytoolchain-0.3.3\\windows\\arm-no
+ 807              		.file 57 "../../libDaisy//src/dev/sr_595.h"
+ 808              		.file 58 "<built-in>"
+ARM GAS  C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s 			page 36
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 Granulator.cpp
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:17     .text._ZN5daisy6SwitchD2Ev:00000000 $t
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:26     .text._ZN5daisy6SwitchD2Ev:00000000 _ZN5daisy6SwitchD2Ev
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:26     .text._ZN5daisy6SwitchD2Ev:00000000 _ZN5daisy6SwitchD1Ev
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:43     .text._ZN5daisy8patch_sm12DaisyPatchSMD2Ev:00000000 $t
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:51     .text._ZN5daisy8patch_sm12DaisyPatchSMD2Ev:00000000 _ZN5daisy8patch_sm12DaisyPatchSMD2Ev
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:51     .text._ZN5daisy8patch_sm12DaisyPatchSMD2Ev:00000000 _ZN5daisy8patch_sm12DaisyPatchSMD1Ev
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:109    .text._Z13AudioCallbackPKPKfPPfj:00000000 $t
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:117    .text._Z13AudioCallbackPKPKfPPfj:00000000 _Z13AudioCallbackPKPKfPPfj
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:307    .text._Z13AudioCallbackPKPKfPPfj:0000009c $d
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:640    .sdram_bss:0002b110 buffer_l
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:636    .sdram_bss:00000000 buffer_r
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:319    .text.startup.main:00000000 $t
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:327    .text.startup.main:00000000 main
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:375    .text.startup.main:00000030 $d
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:384    .text.startup._GLOBAL__sub_I_patch:00000000 $t
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:391    .text.startup._GLOBAL__sub_I_patch:00000000 _GLOBAL__sub_I_patch
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:563    .text.startup._GLOBAL__sub_I_patch:0000003c $d
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:575    .init_array:00000000 $d
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:616    .bss.delayTimeInSamples:00000000 delayTimeInSamples
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:630    .data.delayTimeInSeconds:00000000 delayTimeInSeconds
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:609    .bss.button:00000000 button
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:623    .bss.patch:00000000 patch
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:584    .bss._ZZ13AudioCallbackPKPKfPPfjE14button_pressed:00000000 $d
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:588    .bss._ZZ13AudioCallbackPKPKfPPfjE14button_pressed:00000000 _ZZ13AudioCallbackPKPKfPPfjE14button_pressed
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:591    .bss._ZZ13AudioCallbackPKPKfPPfjE8read_pos:00000000 $d
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:595    .bss._ZZ13AudioCallbackPKPKfPPfjE8read_pos:00000000 _ZZ13AudioCallbackPKPKfPPfjE8read_pos
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:598    .bss._ZZ13AudioCallbackPKPKfPPfjE9write_pos:00000000 $d
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:602    .bss._ZZ13AudioCallbackPKPKfPPfjE9write_pos:00000000 _ZZ13AudioCallbackPKPKfPPfjE9write_pos
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:605    .bss.button:00000000 $d
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:612    .bss.delayTimeInSamples:00000000 $d
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:619    .bss.patch:00000000 $d
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:626    .data.delayTimeInSeconds:00000000 $d
-C:\Users\leosc\AppData\Local\Temp\ccKdiaHu.s:633    .sdram_bss:00000000 $d
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:17     .text._ZN5daisy6SwitchD2Ev:00000000 $t
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:26     .text._ZN5daisy6SwitchD2Ev:00000000 _ZN5daisy6SwitchD2Ev
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:26     .text._ZN5daisy6SwitchD2Ev:00000000 _ZN5daisy6SwitchD1Ev
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:43     .text._ZN5daisy8patch_sm12DaisyPatchSMD2Ev:00000000 $t
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:51     .text._ZN5daisy8patch_sm12DaisyPatchSMD2Ev:00000000 _ZN5daisy8patch_sm12DaisyPatchSMD2Ev
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:51     .text._ZN5daisy8patch_sm12DaisyPatchSMD2Ev:00000000 _ZN5daisy8patch_sm12DaisyPatchSMD1Ev
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:109    .text._Z13AudioCallbackPKPKfPPfj:00000000 $t
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:117    .text._Z13AudioCallbackPKPKfPPfj:00000000 _Z13AudioCallbackPKPKfPPfj
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:416    .text._Z13AudioCallbackPKPKfPPfj:00000130 $d
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:751    .sdram_bss:0002b110 buffer_l
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:747    .sdram_bss:00000000 buffer_r
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:759    .sdram_bss:00081330 grain_buffer_l
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:755    .sdram_bss:00056220 grain_buffer_r
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:432    .text.startup.main:00000000 $t
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:440    .text.startup.main:00000000 main
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:504    .text.startup.main:0000003c $d
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:514    .text.startup._GLOBAL__sub_I_patch:00000000 $t
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:521    .text.startup._GLOBAL__sub_I_patch:00000000 _GLOBAL__sub_I_patch
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:681    .text.startup._GLOBAL__sub_I_patch:00000024 $d
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:692    .init_array:00000000 $d
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:734    .bss.grain:00000000 grain
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:727    .bss.button:00000000 button
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:741    .bss.patch:00000000 patch
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:702    .bss._ZZ13AudioCallbackPKPKfPPfjE14button_pressed:00000000 $d
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:706    .bss._ZZ13AudioCallbackPKPKfPPfjE14button_pressed:00000000 _ZZ13AudioCallbackPKPKfPPfjE14button_pressed
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:709    .bss._ZZ13AudioCallbackPKPKfPPfjE14sample_counter:00000000 $d
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:713    .bss._ZZ13AudioCallbackPKPKfPPfjE14sample_counter:00000000 _ZZ13AudioCallbackPKPKfPPfjE14sample_counter
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:716    .bss._ZZ13AudioCallbackPKPKfPPfjE9write_pos:00000000 $d
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:720    .bss._ZZ13AudioCallbackPKPKfPPfjE9write_pos:00000000 _ZZ13AudioCallbackPKPKfPPfjE9write_pos
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:723    .bss.button:00000000 $d
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:730    .bss.grain:00000000 $d
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:737    .bss.patch:00000000 $d
+C:\Users\leosc\AppData\Local\Temp\ccOHExP3.s:744    .sdram_bss:00000000 $d
                            .group:00000000 _ZN5daisy6SwitchD5Ev
                            .group:00000000 _ZN5daisy8patch_sm12DaisyPatchSMD5Ev
 
@@ -1857,6 +2119,8 @@ UNDEFINED SYMBOLS
 _ZN5daisy8patch_sm12DaisyPatchSM21ProcessAnalogControlsEv
 _ZN5daisy8patch_sm12DaisyPatchSM22ProcessDigitalControlsEv
 _ZN5daisy6Switch8DebounceEv
+_ZN5daisy8patch_sm12DaisyPatchSM11GetAdcValueEi
+_ZN5daisy8patch_sm12DaisyPatchSM10WriteCvOutEif
 _ZN5daisy8patch_sm12DaisyPatchSM4InitEv
 _ZN5daisy8patch_sm12DaisyPatchSM17SetAudioBlockSizeEj
 _ZN5daisy6Switch4InitE12dsy_gpio_pinf
