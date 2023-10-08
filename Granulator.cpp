@@ -7,10 +7,12 @@ using namespace daisy;
 using namespace patch_sm;
 using namespace daisysp;
 
-typedef struct Grain
+struct Grain
 {
     bool triggered;
-    signed long int triggered_counter;
+    unsigned long int attack;
+    unsigned long int decay;
+    signed long int sample_counter;
     signed long int length;
     signed long int write_pos;
     signed long int read_pos;
@@ -31,6 +33,35 @@ float DSY_SDRAM_BSS grain_buffer_r[MAX_DELAY];
 float DSY_SDRAM_BSS buffer_l[MAX_DELAY];
 float DSY_SDRAM_BSS buffer_r[MAX_DELAY];
 
+
+// Calculate the envelope value for a given sample position
+float calculateEnvelope(int numSamples, int currentSample) 
+{
+    if (numSamples <= 0 || currentSample < 0 || currentSample >= numSamples) 
+    {
+        return 1.0; // Default to full volume
+    }
+
+    // Calculate the envelope value (ranging from 0 to 1) based on the current sample position
+    float envelope = 1.0; // Default to full volume
+
+    if (currentSample < grain.attack) 
+    {
+        // Apply attack envelope for the first part
+        envelope = (float)currentSample / grain.attack;
+    } 
+    else if (currentSample > numSamples - grain.decay) 
+    {
+        // Apply decay envelope for the last part
+        int decayStart = numSamples - grain.decay;
+        envelope = (float)(numSamples - currentSample) / grain.decay;
+    }
+
+    return envelope;
+}
+
+
+
 void AudioCallback(AudioHandle::InputBuffer  in,
                    AudioHandle::OutputBuffer out,
                    size_t                    size)
@@ -46,7 +77,13 @@ void AudioCallback(AudioHandle::InputBuffer  in,
     button.Debounce();
 
     grain.length = patch.GetAdcValue(CV_1)*44100;
+
     interval = patch.GetAdcValue(CV_2)*64;
+
+    grain.attack = patch.GetAdcValue(CV_3)*3000;
+
+    grain.decay = patch.GetAdcValue(CV_4)*3000;
+
     // patch.WriteCvOut(2, (time_knob*5));
     // out[0][0] = in[0][0]; 
     // out[1][0] = in[1][0]; 
@@ -127,10 +164,6 @@ void AudioCallback(AudioHandle::InputBuffer  in,
     // out[1][0] = output_r;
 
 
-    // /* output connected to read head   */
-    // out[0][0] = buffer_l[read_pos];
-    // out[1][0] = buffer_r[read_pos];
-
     if(sample_counter > (int)MAX_DELAY - 1) // stop overflow
     {
         sample_counter = 0;
@@ -144,35 +177,40 @@ void AudioCallback(AudioHandle::InputBuffer  in,
     if(grain.triggered)
     {
         grain.triggered = 0;
-        grain.triggered_counter = grain.length;
+        grain.sample_counter = grain.length;
     }
 
-    if(grain.triggered_counter)
+    if(grain.sample_counter)
     {
-        grain.triggered_counter--;
+        grain.sample_counter--;
         patch.WriteCvOut(2, 5.f);
-        out[0][0] = grain_buffer_l[grain.read_pos];
-        out[1][0] = grain_buffer_r[grain.read_pos];
+        float envelope = calculateEnvelope(grain.length, grain.sample_counter);
+        out[0][0] = grain_buffer_l[grain.read_pos] * envelope;
+        out[1][0] = grain_buffer_r[grain.read_pos] * envelope;
     }
     else
     {
         patch.WriteCvOut(2, 0.f);
     }
 
+    /* output connected to read head   */
+    // out[0][0] = buffer_l[read_pos];
+    // out[1][0] = buffer_r[read_pos];
 
-    if(button.RisingEdge())
-    {
-        if(button_pressed == 0)
-        {
-            button_pressed = 1;
-            // patch.WriteCvOut(2, (5.f));
-        }
-        else if(button_pressed == 1)
-        {
-            button_pressed = 0; 
-            // patch.WriteCvOut(2, (0.f));
-        }
-    }
+    /* button */
+    // if(button.RisingEdge())
+    // {
+    //     if(button_pressed == 0)
+    //     {
+    //         button_pressed = 1;
+    //         // patch.WriteCvOut(2, (5.f));
+    //     }
+    //     else if(button_pressed == 1)
+    //     {
+    //         button_pressed = 0; 
+    //         // patch.WriteCvOut(2, (0.f));
+    //     }
+    // }
 }
 
 int main(void)
@@ -188,7 +226,7 @@ int main(void)
     grain.read_pos = 0;
     grain.offset = 0;
     grain.triggered = 0;
-    grain.triggered_counter = 0;
+    grain.sample_counter = 0;
     patch.Init(); 
     patch.SetAudioBlockSize(1);
     button.Init(patch.D5);
